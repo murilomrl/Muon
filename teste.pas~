@@ -11,7 +11,7 @@ Var intr k;
 
 inicio
 Var 
-intr i, Retorno;
+intr i;
 Array intr v[4];
 Array intr m,n,o[5][5];
 booleano x;
@@ -38,7 +38,7 @@ str a,b,c;
   mostre(i);
   a='oi';
   b=' tudo bem?';
-  c= a + b;
+  c= a == b;
   mostre(c);
   
   x=5<4;

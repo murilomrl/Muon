@@ -1,0 +1,82 @@
+Program ImprimeMatriz;
+Var
+intr seed;
+
+metodo intr pseudo_random()
+Var
+	intr aux;	
+{    
+    seed = (8253729 * seed + 2396403); 
+
+    aux = (seed Mod 32767 + 32767) Mod 32767;
+    Retorno = aux;  
+}
+
+metodo intr multiplica( Array real a[3][4]; Array real b[4][2]; intr lin_a, col_a, lin_b, col_b; Array real c[3][2])
+Var
+	intr i, j, k;
+{   
+    se lin_b != col_a
+	{
+        mostre( 'Matrizes incompativeis para multiplicação\n' );
+	Retorno=0;
+    };
+
+    para i=0;i<lin_a
+    {
+        para j=0;j<col_b
+	{
+		c[i][j]=0.0;
+            
+            para k=0; k<lin_b
+			{
+            	c[i][j] = c[i][j] + a[i][k] * b[k][j];
+			};
+        };
+    };
+    Retorno=1;
+}
+
+metodo intr imprime( Array real m[3][2]; intr l, c)
+Var
+	intr i, j;
+{    
+    para i=0; i<l
+	{
+        mostre( '\n' );
+        para j=0; j<c
+		{
+            mostre( m[i][j] );
+            mostre( '\t' );
+		};
+    };
+    Retorno=0;
+}
+
+inicio
+Var
+	Array real a[3][4]; Array real b[4][2]; Array real c[3][2];
+	intr i, j, k,resultado;
+{
+    seed = 5323;	
+    para i=0; i<3
+	{
+        para j=0; j<4
+		{ 
+            a[i][j] = (pseudo_random() Mod 10);
+		};
+    };     
+    para i=0; i<4
+	{
+        para j=0; j<2{ 
+            b[i][j] = (pseudo_random() Mod 10);
+		};
+    };
+    resultado=multiplica( a, b, 3, 4, 4, 2, c );
+    se resultado == 1{
+    
+    resultado=imprime( c, 3, 2 );
+    resultado=imprime( c, 3, 3 );
+	};
+}
+fim

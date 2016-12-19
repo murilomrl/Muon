@@ -1,13 +1,12 @@
 Program HelloWorld;
 
-metodo intr printVet( Array intr v[4] )
+metodo vazio printVet( Array intr v[4] )
 Var intr k;
 {
   para k=0;k<4
   {
     mostre(v[k]);
   };
-    Retorno = 1;
 }
 
 inicio
@@ -22,6 +21,6 @@ str a,b,c;
   {
     v[i]=i;
   };
-  mostre(printVet(v));
+  printVet(v);
 }
 fim

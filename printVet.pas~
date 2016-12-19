@@ -1,6 +1,6 @@
 Program HelloWorld;
 
-metodo intr printVet( Array intr v[4] )
+metodo vazio printVet( Array intr v[4] )
 Var intr k;
 {
   para k=0;k<4
@@ -22,6 +22,6 @@ str a,b,c;
   {
     v[i]=i;
   };
-  
+  printVet(v);
 }
 fim

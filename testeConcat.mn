@@ -1,0 +1,30 @@
+Program testeConcat;
+
+
+metodo str formata( str a, b ) {
+  se a > b  
+      Retorno = 'Sr(a). ' + a + ' ' + b
+  sen
+      Retorno = 'Mr(s). ' + b + ', ' + a;
+}
+
+
+inicio
+Var
+    str nome,sobrenome;
+    str resultado;
+{
+    leia('Digite o seu nome: ',nome);
+    leia('Digite o seu sobrenome: ',sobrenome);
+    
+    resultado=formata( nome, sobrenome );
+    resultado='Bom dia, ' +  resultado;
+    mostre(resultado);
+    resultado=formata( ' ' + nome, sobrenome );
+    resultado='Bom dia, ' +  resultado;
+    mostre(resultado);
+    resultado=formata( nome, ' ' + sobrenome );
+    resultado='Bom dia, ' +  resultado;
+    mostre(resultado);
+}
+fim
