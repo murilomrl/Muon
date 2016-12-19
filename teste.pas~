@@ -15,6 +15,7 @@ intr i, Retorno;
 Array intr v[4];
 Array intr m,n,o[5][5];
 booleano x;
+str a,b,c;
 {
   para i=0;i<=10
   {
@@ -32,9 +33,16 @@ booleano x;
   n[0][0]=3;
   o[0][0]=m[0][0]*n[0][0];	
   mostre('2dim');
-  mostre(m[0][0]);
+  mostre(o[0][0]);
   leia('Escreva:', i);
   mostre(i);
+  a='oi';
+  b=' tudo bem?';
+  c= a + b;
+  mostre(c);
+  
+  x=5<4;
+  mostre(x);
   mostre( MDC( 40, 32, 1.0) );
 }
 fim

@@ -11,10 +11,11 @@ Var intr k;
 
 inicio
 Var 
-intr i, Retorno;
+intr i;
 Array intr v[4];
 Array intr m,n,o[5][5];
 booleano x;
+str a,b,c;
 {
   para i=0;i<=10
   {
@@ -35,6 +36,13 @@ booleano x;
   mostre(o[0][0]);
   leia('Escreva:', i);
   mostre(i);
+  a='oi';
+  b=' tudo bem?';
+  c= a + b;
+  mostre(c);
+  
+  x=5<4;
+  mostre(x);
   mostre( MDC( 40, 32, 1.0) );
 }
 fim
