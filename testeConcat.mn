@@ -1,4 +1,4 @@
-Program testeConcat;
+Programa ConcatenacaoStrings;
 
 
 metodo str formata( str a, b ) {
@@ -20,11 +20,14 @@ Var
     resultado=formata( nome, sobrenome );
     resultado='Bom dia, ' +  resultado;
     mostre(resultado);
+    mostre('\n');
     resultado=formata( ' ' + nome, sobrenome );
     resultado='Bom dia, ' +  resultado;
     mostre(resultado);
+    mostre('\n');
     resultado=formata( nome, ' ' + sobrenome );
     resultado='Bom dia, ' +  resultado;
     mostre(resultado);
+    mostre('\n');
 }
 fim

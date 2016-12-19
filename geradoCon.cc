@@ -62,7 +62,7 @@ strncpy( ts_8,formata( nome, sobrenome ),256);
   strncat( ts_9, resultado, 256 );
   strncpy( resultado, ts_9, 256 );
   cout << resultado;
-  cout << endl;
+  cout << "\n";
   strncpy( ts_10, " ", 256 );
   strncat( ts_10, nome, 256 );
 strncpy( ts_11,formata( ts_10, sobrenome ),256);
@@ -71,7 +71,7 @@ strncpy( ts_11,formata( ts_10, sobrenome ),256);
   strncat( ts_12, resultado, 256 );
   strncpy( resultado, ts_12, 256 );
   cout << resultado;
-  cout << endl;
+  cout << "\n";
   strncpy( ts_13, " ", 256 );
   strncat( ts_13, sobrenome, 256 );
 strncpy( ts_14,formata( nome, ts_13 ),256);
@@ -80,6 +80,6 @@ strncpy( ts_14,formata( nome, ts_13 ),256);
   strncat( ts_15, resultado, 256 );
   strncpy( resultado, ts_15, 256 );
   cout << resultado;
-  cout << endl;
+  cout << "\n";
 }
 

@@ -744,11 +744,11 @@ static const short yyrline[] = { 0,
    167,   169,   173,   185,   188,   198,   209,   222,   225,   230,
    232,   236,   247,   259,   273,   276,   279,   282,   287,   291,
    296,   296,   302,   304,   307,   308,   309,   310,   311,   312,
-   313,   316,   336,   356,   376,   398,   414,   430,   446,   466,
-   468,   473,   479,   486,   497,   502,   510,   512,   514,   516,
-   518,   520,   522,   524,   526,   528,   530,   532,   534,   536,
-   539,   541,   543,   545,   561,   578,   580,   582,   614,   629,
-   634,   640,   642
+   313,   316,   337,   359,   381,   405,   420,   435,   451,   470,
+   472,   477,   483,   490,   505,   515,   527,   529,   531,   533,
+   535,   537,   539,   541,   543,   545,   547,   549,   551,   553,
+   556,   558,   560,   562,   578,   595,   597,   599,   630,   644,
+   649,   655,   657
 };
 
 static const char * const yytname[] = {   "$","error","$illegal.","TK_ID","TK_CINT",
@@ -1651,7 +1651,8 @@ case 42:
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+            if(consulta_ts(yyvsp[-7].v).tipo_base!=yyvsp[-5].t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
             yyval.c =  yyvsp[-5].c + yyvsp[-1].c +
                     "  " + yyvsp[-7].v + " = " + yyvsp[-5].v + ";\n" +
                     "  " + var_fim + " = " + yyvsp[-1].v + ";\n" +
@@ -1666,14 +1667,16 @@ case 42:
           ;
     break;}
 case 43:
-#line 337 "trabalho.y"
+#line 338 "trabalho.y"
 { 
             string var_fim = gera_nome_var_temp( yyvsp[-7].t.tipo_base );
             string label_teste = gera_label( "teste_for" );
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
-          
-            // Falta verificar os tipos... perde ponto se não o fizer.
+          	
+          	if(consulta_ts(yyvsp[-7].v).tipo_base!=yyvsp[-5].t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
+
             yyval.c =  yyvsp[-5].c + yyvsp[-1].c +
                     "  " + yyvsp[-7].v + " = " + yyvsp[-5].v + ";\n" +
                     "  " + var_fim + " = " + yyvsp[-1].v + ";\n" +
@@ -1688,14 +1691,16 @@ case 43:
           ;
     break;}
 case 44:
-#line 357 "trabalho.y"
+#line 360 "trabalho.y"
 { 
             string var_fim = gera_nome_var_temp( yyvsp[-7].t.tipo_base );
             string label_teste = gera_label( "teste_for" );
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+            if(consulta_ts(yyvsp[-7].v).tipo_base!=yyvsp[-5].t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
+
             yyval.c =  yyvsp[-5].c + yyvsp[-1].c +
                     "  " + yyvsp[-7].v + " = " + yyvsp[-5].v + ";\n" +
                     "  " + var_fim + " = " + yyvsp[-1].v + ";\n" +
@@ -1710,14 +1715,16 @@ case 44:
           ;
     break;}
 case 45:
-#line 377 "trabalho.y"
+#line 382 "trabalho.y"
 { 
             string var_fim = gera_nome_var_temp( yyvsp[-7].t.tipo_base );
             string label_teste = gera_label( "teste_for" );
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+            if(consulta_ts(yyvsp[-7].v).tipo_base!=yyvsp[-5].t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
+
             yyval.c =  yyvsp[-5].c + yyvsp[-1].c +
                     "  " + yyvsp[-7].v + " = " + yyvsp[-5].v + ";\n" +
                     "  " + var_fim + " = " + yyvsp[-1].v + ";\n" +
@@ -1732,14 +1739,13 @@ case 45:
           ;
     break;}
 case 46:
-#line 399 "trabalho.y"
+#line 406 "trabalho.y"
 { 
             string var_fim = gera_nome_var_temp( yyvsp[-3].t.tipo_base );
             string label_teste = gera_label( "teste_while" );
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
             yyval.c =  var_fim + " = " + yyvsp[-1].v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+yyvsp[-3].v + " >= " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -1750,14 +1756,13 @@ case 46:
           ;
     break;}
 case 47:
-#line 415 "trabalho.y"
+#line 421 "trabalho.y"
 { 
             string var_fim = gera_nome_var_temp( yyvsp[-3].t.tipo_base );
             string label_teste = gera_label( "teste_while" );
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
             yyval.c =  var_fim + " = " + yyvsp[-1].v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+yyvsp[-3].v + " <= " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -1768,14 +1773,14 @@ case 47:
           ;
     break;}
 case 48:
-#line 431 "trabalho.y"
+#line 436 "trabalho.y"
 { 
             string var_fim = gera_nome_var_temp( yyvsp[-3].t.tipo_base );
             string label_teste = gera_label( "teste_while" );
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+
             yyval.c =  var_fim + " = " + yyvsp[-1].v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+yyvsp[-3].v + " < " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -1786,14 +1791,13 @@ case 48:
           ;
     break;}
 case 49:
-#line 447 "trabalho.y"
+#line 452 "trabalho.y"
 { 
             string var_fim = gera_nome_var_temp( yyvsp[-3].t.tipo_base );
             string label_teste = gera_label( "teste_while" );
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
             yyval.c =  var_fim + " = " + yyvsp[-1].v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+yyvsp[-3].v + " > " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -1804,31 +1808,35 @@ case 49:
           ;
     break;}
 case 50:
-#line 467 "trabalho.y"
+#line 471 "trabalho.y"
 { yyval = gera_codigo_if( yyvsp[-1], yyvsp[0].c, "" ); ;
     break;}
 case 51:
-#line 469 "trabalho.y"
+#line 473 "trabalho.y"
 { yyval = gera_codigo_if( yyvsp[-3], yyvsp[-2].c, yyvsp[0].c ); ;
     break;}
 case 52:
-#line 474 "trabalho.y"
+#line 478 "trabalho.y"
 { yyval.c = yyvsp[-1].c + 
                    "  cout << " + yyvsp[-1].v + ";\n";
           ;
     break;}
 case 53:
-#line 480 "trabalho.y"
+#line 484 "trabalho.y"
 {	yyval.c = yyvsp[-3].c +
 				" cout << " + yyvsp[-3].v + ";\n" +
 				" cin >> " +  yyvsp[-1].v + ";\n";
 		;
     break;}
 case 54:
-#line 487 "trabalho.y"
-{ // Falta verificar se pode atribuir (perde ponto se não fizer).
-          yyvsp[-2].t = consulta_ts( yyvsp[-2].v ) ;
+#line 491 "trabalho.y"
+{ yyvsp[-2].t = consulta_ts( yyvsp[-2].v ) ;
           
+          if(yyvsp[-2].t.tipo_base!=yyvsp[0].t.tipo_base){
+          	if(!((yyvsp[-2].t.tipo_base=="d" && yyvsp[0].t.tipo_base=="i")||(yyvsp[-2].t.tipo_base=="s" && yyvsp[0].t.tipo_base=="c")))
+          		erro("Atribuicao de tipos diferentes.");
+          }
+
           if( yyvsp[-2].t.tipo_base == "s" ) 
             yyval.c = yyvsp[0].c + "  strncpy( " + yyvsp[-2].v + ", " + yyvsp[0].v + ", 256 );\n";
           else
@@ -1838,86 +1846,95 @@ case 54:
         ;
     break;}
 case 55:
-#line 498 "trabalho.y"
-{ // Falta testar: tipo, limite do array, e se a variável existe
-          yyval.c = yyvsp[-3].c + yyvsp[0].c +
+#line 506 "trabalho.y"
+{ 
+        	Tipo tipoArray = consulta_ts(yyvsp[-5].v);
+           if(tipoArray.tipo_base!=yyvsp[0].t.tipo_base){
+          	if(!(tipoArray.tipo_base=="d" && yyvsp[0].t.tipo_base=="i"))
+          		erro("Atribuicao de tipos diferentes.");
+          }
+          yyval.c = yyvsp[-3].c + yyvsp[0].c + gera_teste_limite_array(yyvsp[-3].v,tipoArray) +
                  "  " + yyvsp[-5].v + "[" + yyvsp[-3].v + "] = " + yyvsp[0].v + ";\n";
         ;
     break;}
 case 56:
-#line 503 "trabalho.y"
-{ // Falta testar: tipo, limite do array, e se a variável existe
+#line 516 "trabalho.y"
+{ 
           Tipo tipoArray = consulta_ts(yyvsp[-8].v);
-          yyval.c = yyvsp[-6].c + yyvsp[-3].c + yyvsp[0].c +
+          if(tipoArray.tipo_base!=yyvsp[0].t.tipo_base){
+          	if(!(tipoArray.tipo_base=="d" && yyvsp[0].t.tipo_base=="i"))
+          		erro("Atribuicao de tipos diferentes.");
+          }
+          yyval.c = yyvsp[-6].c + yyvsp[-3].c + yyvsp[0].c + gera_teste_limite_array(yyvsp[-6].v,yyvsp[-3].v,tipoArray) +
                  "  " + yyvsp[-8].v + "[" + yyvsp[-6].v + "*" + toString(tipoArray.tamanho[1]) + "+" + yyvsp[-3].v + "] = " + yyvsp[0].v + ";\n";
         ;
     break;}
 case 57:
-#line 511 "trabalho.y"
+#line 528 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "+", yyvsp[0] ); ;
     break;}
 case 58:
-#line 513 "trabalho.y"
+#line 530 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "-", yyvsp[0] ); ;
     break;}
 case 59:
-#line 515 "trabalho.y"
+#line 532 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "*", yyvsp[0] ); ;
     break;}
 case 60:
-#line 517 "trabalho.y"
+#line 534 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "%", yyvsp[0] ); ;
     break;}
 case 61:
-#line 519 "trabalho.y"
+#line 536 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "/", yyvsp[0] ); ;
     break;}
 case 62:
-#line 521 "trabalho.y"
+#line 538 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "<", yyvsp[0] ); ;
     break;}
 case 63:
-#line 523 "trabalho.y"
+#line 540 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], ">", yyvsp[0] ); ;
     break;}
 case 64:
-#line 525 "trabalho.y"
+#line 542 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "<=", yyvsp[0] ); ;
     break;}
 case 65:
-#line 527 "trabalho.y"
+#line 544 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], ">=", yyvsp[0] ); ;
     break;}
 case 66:
-#line 529 "trabalho.y"
+#line 546 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "==", yyvsp[0] ); ;
     break;}
 case 67:
-#line 531 "trabalho.y"
+#line 548 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "!=", yyvsp[0] ); ;
     break;}
 case 68:
-#line 533 "trabalho.y"
+#line 550 "trabalho.y"
 { yyval = gera_codigo_operador( yyvsp[-2], "&&", yyvsp[0] ); ;
     break;}
 case 69:
-#line 535 "trabalho.y"
+#line 552 "trabalho.y"
 { yyval = yyvsp[-1]; ;
     break;}
 case 71:
-#line 540 "trabalho.y"
+#line 557 "trabalho.y"
 { yyval.v = yyvsp[0].v; yyval.t = Tipo( "i" ); yyval.c = yyvsp[0].c; ;
     break;}
 case 72:
-#line 542 "trabalho.y"
+#line 559 "trabalho.y"
 { yyval.v = yyvsp[0].v; yyval.t = Tipo( "d" ); yyval.c = yyvsp[0].c; ;
     break;}
 case 73:
-#line 544 "trabalho.y"
+#line 561 "trabalho.y"
 { yyval.v = yyvsp[0].v; yyval.t = Tipo( "s" ); yyval.c = yyvsp[0].c; ;
     break;}
 case 74:
-#line 546 "trabalho.y"
+#line 563 "trabalho.y"
 { 
       Tipo tipoArray = consulta_ts( yyvsp[-3].v );
       yyval.t = Tipo( tipoArray.tipo_base );
@@ -1935,7 +1952,7 @@ case 74:
     ;
     break;}
 case 75:
-#line 562 "trabalho.y"
+#line 579 "trabalho.y"
 {
       // Implementar: vai criar uma temporaria int para o índice e 
       // outra do tipoBase do array para o valor recuperado.
@@ -1954,17 +1971,16 @@ case 75:
     ;
     break;}
 case 76:
-#line 579 "trabalho.y"
+#line 596 "trabalho.y"
 { yyval.v = yyvsp[0].v; yyval.t = consulta_ts( yyvsp[0].v ); yyval.c = yyvsp[0].c; ;
     break;}
 case 77:
-#line 581 "trabalho.y"
+#line 598 "trabalho.y"
 { yyval.v = "&" + yyvsp[0].v; yyval.t = consulta_ts( yyvsp[0].v ); yyval.c = yyvsp[-1].c + yyvsp[0].c; ;
     break;}
 case 78:
-#line 583 "trabalho.y"
-{ yyval.t = Tipo( "i" ); // consulta_ts( $1.v );
-    // Falta verficar o tipo da função e os parametros.
+#line 600 "trabalho.y"
+{ yyval.t = consulta_ts( yyvsp[-3].v ).retorno[0];
       Tipo funcao = consulta_ts(yyvsp[-3].v);
       if(funcao.params.size()!= yyvsp[-1].lista_str.size())
       	erro( "Numero de parametros incorretos na função: " + yyvsp[-3].v + 
@@ -1996,9 +2012,8 @@ case 78:
     ;
     break;}
 case 79:
-#line 615 "trabalho.y"
+#line 631 "trabalho.y"
 { yyval.t = Tipo( "i" ); // consulta_ts( $1.v );
-    // Falta verficar o tipo da função e os parametros.
       Tipo funcao = consulta_ts(yyvsp[-2].v);
       if(funcao.params.size()!= 0)
       	erro( "Numero de parametros incorretos na função: " + yyvsp[-2].v + 
@@ -2010,24 +2025,24 @@ case 79:
     ;
     break;}
 case 80:
-#line 630 "trabalho.y"
+#line 645 "trabalho.y"
 { yyval = Atributos();
           yyval.c = yyvsp[-2].c + yyvsp[0].c;
           yyval.lista_str = yyvsp[-2].lista_str;
           yyval.lista_str.push_back( yyvsp[0].v ); ;
     break;}
 case 81:
-#line 635 "trabalho.y"
+#line 650 "trabalho.y"
 { yyval = Atributos();
           yyval.c = yyvsp[0].c;
           yyval.lista_str.push_back( yyvsp[0].v ); ;
     break;}
 case 82:
-#line 641 "trabalho.y"
+#line 656 "trabalho.y"
 { yyval.v = yyvsp[0].v; yyval.t = consulta_ts( yyvsp[0].v ); yyval.c = yyvsp[0].c; ;
     break;}
 case 83:
-#line 643 "trabalho.y"
+#line 658 "trabalho.y"
 { yyval.v = yyvsp[-3].v; yyval.t = consulta_ts( yyvsp[-3].v ); yyval.c = yyvsp[-3].c + "[" + yyvsp[-1].v + "]"; ;
     break;}
 }
@@ -2234,7 +2249,7 @@ YYLABEL(yyerrhandle)
 /* END */
 
  #line 1038 "/usr/share/bison++/bison.cc"
-#line 646 "trabalho.y"
+#line 661 "trabalho.y"
 
 int nlinha = 1;
 
@@ -2431,7 +2446,6 @@ Atributos gera_codigo_operador( Atributos s1, string opr, Atributos s3 ) {
   ss.v = gera_nome_var_temp( ss.t.tipo_base );
   
   if( s1.t.tipo_base == "s" && s3.t.tipo_base == "s" ){ 
-    // falta testar se é o operador "+"
     if(opr=="+"){
 		ss.c = s1.c + s3.c + // Codigo das expressões dos filhos da arvore.
 		       "  strncpy( " + ss.v + ", " + s1.v + ", 256 );\n" +
@@ -2578,13 +2592,13 @@ string gera_teste_limite_array( string indice_1, Tipo tipoArray ) {
   string label_end = gera_label( "limite_array_ok" );
 
   string codigo = "  " + var_teste_inicio + " = " + indice_1 + " >= 0;\n" +
-                  "  " + var_teste_fim + " = " + indice_1 + " <= " +
+                  "  " + var_teste_fim + " = " + indice_1 + " < " +
                   toString( tipoArray.tamanho[0] ) + ";\n" +
                   "  " + var_teste + " = " + var_teste_inicio + " && " + 
                                              var_teste_fim + ";\n";
                                              
   codigo += "  if( " + var_teste + " ) goto " + label_end + ";\n" +
-          "    printf( \"Limite de array ultrapassado: %d <= %d <= %d\", 0 ," + indice_1 + ", " +
+          "    printf( \"Limite de array ultrapassado: Indice: %d Tamanho: %d\", " + indice_1 + ", " +
                toString( tipoArray.tamanho[0] ) + " );\n" +
                "  cout << endl;\n" + 
                "  exit( 1 );\n" + 
@@ -2599,14 +2613,15 @@ string gera_teste_limite_array( string indice_1, string indice_2, Tipo tipoArray
   string var_teste = gera_nome_var_temp( "b" );
   string label_end = gera_label( "limite_array_ok" );
 
-  string codigo = "  " + var_teste_inicio + " = " + indice_1 + " >= 0;\n" +
-                  "  " + var_teste_fim + " = " + indice_1 + " <= " +
+
+  string codigo = "  " + var_teste_inicio + " = " + indice_1 + "*" + toString(tipoArray.tamanho[1]) + "+" + indice_2 + " >= 0;\n" +
+                  "  " + var_teste_fim + " = " + indice_1 + "*" + toString(tipoArray.tamanho[1]) + "+" + indice_2 + " < " +
                   toString( tipoArray.tamanho[0]*tipoArray.tamanho[1] ) + ";\n" +
                   "  " + var_teste + " = " + var_teste_inicio + " && " + 
                                              var_teste_fim + ";\n";
   
   codigo += "  if( " + var_teste + " ) goto " + label_end + ";\n" +
-          "    printf( \"Limite de array ultrapassado: %d <= %d <= %d\", 0 ," + indice_1 + ", " +
+          "    printf( \"Limite de array ultrapassado: Indice: %d Tamanho: %d\", " + indice_1 + "*" + toString(tipoArray.tamanho[1]) + "+" + indice_2 + ", " +
                toString( tipoArray.tamanho[0]*tipoArray.tamanho[1] ) + " );\n" +
                "  cout << endl;\n" + 
                "  exit( 1 );\n" + 
@@ -2626,7 +2641,7 @@ int verifica_tipo(Tipo var1, string var2){ //verificar tipos aqui
   				return 0;		
   		}
   	}
-  	if(var1.tipo_base=="d"){
+  	else if(var1.tipo_base=="d"){
   		if(!isdigit(var2[0])){
   			if(consulta_ts(var2).tipo_base!="d")
       			return 0;
@@ -2635,6 +2650,18 @@ int verifica_tipo(Tipo var1, string var2){ //verificar tipos aqui
   			if(!stod(var2))
   				return 0;
   		}
+  	}
+  	else if(var1.tipo_base=="s"){
+  		if(!isdigit(var2[0])){
+  			if(consulta_ts(var2).tipo_base!="s")
+      			return 0;
+      	}
+  	}
+  	else if(var1.tipo_base=="c"){
+  		if(!isdigit(var2[0])){
+  			if(consulta_ts(var2).tipo_base!="c")
+      			return 0;
+      	}
   	}
   	return 1;
 }

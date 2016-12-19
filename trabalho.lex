@@ -22,7 +22,7 @@ COMMENT "(*"([^*]|"*"[^)])*"*)"
 {COMMENT}  {}
 
 "Var"      { yylval = Atributos( yytext ); return TK_VAR; }
-"Program"  { yylval = Atributos( yytext ); return TK_PROGRAM; }
+"Programa"  { yylval = Atributos( yytext ); return TK_PROGRAM; }
 "{"    { yylval = Atributos( yytext ); return TK_BEGIN; }
 "}"      { yylval = Atributos( yytext ); return TK_END; }
 "inicio"    { yylval = Atributos( yytext ); return TK_MAININ; }
@@ -34,12 +34,9 @@ COMMENT "(*"([^*]|"*"[^)])*"*)"
 "sen"     { yylval = Atributos( yytext ); return TK_ELSE; }
 "para"      { yylval = Atributos( yytext ); return TK_FOR; }
 "enquanto"      { yylval = Atributos( yytext ); return TK_WHILE; }
-"To"       { yylval = Atributos( yytext ); return TK_TO; }
-"Do"       { yylval = Atributos( yytext ); return TK_DO; }
-"Array"    { yylval = Atributos( yytext ); return TK_ARRAY; }
-"Of"       { yylval = Atributos( yytext ); return TK_OF; }
+"vetor"    { yylval = Atributos( yytext ); return TK_ARRAY; }
 "metodo" { yylval = Atributos( yytext ); return TK_FUNCTION; }
-"Mod"      { yylval = Atributos( yytext ); return TK_MOD; }
+"mod"      { yylval = Atributos( yytext ); return TK_MOD; }
 
 
 ".."       { yylval = Atributos( yytext ); return TK_PTPT; }

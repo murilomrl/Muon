@@ -320,7 +320,8 @@ CMD_FOR : TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+            if(consulta_ts($2.v).tipo_base!=$4.t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
             $$.c =  $4.c + $8.c +
                     "  " + $2.v + " = " + $4.v + ";\n" +
                     "  " + var_fim + " = " + $8.v + ";\n" +
@@ -339,8 +340,10 @@ CMD_FOR : TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD
             string label_teste = gera_label( "teste_for" );
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
-          
-            // Falta verificar os tipos... perde ponto se não o fizer.
+          	
+          	if(consulta_ts($2.v).tipo_base!=$4.t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
+
             $$.c =  $4.c + $8.c +
                     "  " + $2.v + " = " + $4.v + ";\n" +
                     "  " + var_fim + " = " + $8.v + ";\n" +
@@ -360,7 +363,9 @@ CMD_FOR : TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+            if(consulta_ts($2.v).tipo_base!=$4.t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
+
             $$.c =  $4.c + $8.c +
                     "  " + $2.v + " = " + $4.v + ";\n" +
                     "  " + var_fim + " = " + $8.v + ";\n" +
@@ -380,7 +385,9 @@ CMD_FOR : TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD
             string label_fim = gera_label( "fim_for" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+            if(consulta_ts($2.v).tipo_base!=$4.t.tipo_base)
+            	erro("Atribuicao de tipos diferentes.");
+
             $$.c =  $4.c + $8.c +
                     "  " + $2.v + " = " + $4.v + ";\n" +
                     "  " + var_fim + " = " + $8.v + ";\n" +
@@ -402,7 +409,6 @@ CMD_WHILE : TK_WHILE NOME_VAR '<' E CMD
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
             $$.c =  var_fim + " = " + $4.v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+$2.v + " >= " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -418,7 +424,6 @@ CMD_WHILE : TK_WHILE NOME_VAR '<' E CMD
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
             $$.c =  var_fim + " = " + $4.v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+$2.v + " <= " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -434,7 +439,7 @@ CMD_WHILE : TK_WHILE NOME_VAR '<' E CMD
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
+
             $$.c =  var_fim + " = " + $4.v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+$2.v + " < " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -450,7 +455,6 @@ CMD_WHILE : TK_WHILE NOME_VAR '<' E CMD
             string label_fim = gera_label( "fim_while" );
             string condicao = gera_nome_var_temp( "b" );
           
-            // Falta verificar os tipos... perde ponto se não o fizer.
             $$.c =  var_fim + " = " + $4.v + ";\n" + label_teste + ":;\n" +
                     "  " +condicao+" = "+$2.v + " > " + var_fim + ";\n" + 
                     "  " + "if( " + condicao + " ) goto " + label_fim + 
@@ -484,9 +488,13 @@ READ : TK_READ '(' E ',' NOME_VAR ')'
 		;
   
 ATRIB : TK_ID TK_ATRIB E 
-        { // Falta verificar se pode atribuir (perde ponto se não fizer).
-          $1.t = consulta_ts( $1.v ) ;
+        { $1.t = consulta_ts( $1.v ) ;
           
+          if($1.t.tipo_base!=$3.t.tipo_base){
+          	if(!(($1.t.tipo_base=="d" && $3.t.tipo_base=="i")||($1.t.tipo_base=="s" && $3.t.tipo_base=="c")))
+          		erro("Atribuicao de tipos diferentes.");
+          }
+
           if( $1.t.tipo_base == "s" ) 
             $$.c = $3.c + "  strncpy( " + $1.v + ", " + $3.v + ", 256 );\n";
           else
@@ -495,14 +503,23 @@ ATRIB : TK_ID TK_ATRIB E
           debug( "ATRIB : TK_ID TK_ATRIB E ';'", $$ );
         } 
       | TK_ID '[' E ']' TK_ATRIB E
-        { // Falta testar: tipo, limite do array, e se a variável existe
-          $$.c = $3.c + $6.c +
+        { 
+        	Tipo tipoArray = consulta_ts($1.v);
+           if(tipoArray.tipo_base!=$6.t.tipo_base){
+          	if(!(tipoArray.tipo_base=="d" && $6.t.tipo_base=="i"))
+          		erro("Atribuicao de tipos diferentes.");
+          }
+          $$.c = $3.c + $6.c + gera_teste_limite_array($3.v,tipoArray) +
                  "  " + $1.v + "[" + $3.v + "] = " + $6.v + ";\n";
         }
       | TK_ID '[' E ']' '[' E ']' TK_ATRIB E
-        { // Falta testar: tipo, limite do array, e se a variável existe
+        { 
           Tipo tipoArray = consulta_ts($1.v);
-          $$.c = $3.c + $6.c + $9.c +
+          if(tipoArray.tipo_base!=$9.t.tipo_base){
+          	if(!(tipoArray.tipo_base=="d" && $9.t.tipo_base=="i"))
+          		erro("Atribuicao de tipos diferentes.");
+          }
+          $$.c = $3.c + $6.c + $9.c + gera_teste_limite_array($3.v,$6.v,tipoArray) +
                  "  " + $1.v + "[" + $3.v + "*" + toString(tipoArray.tamanho[1]) + "+" + $6.v + "] = " + $9.v + ";\n";
         }  
       ;   
@@ -580,8 +597,7 @@ F : TK_CINT
   | '@' TK_ID 
     { $$.v = "&" + $2.v; $$.t = consulta_ts( $2.v ); $$.c = $1.c + $2.c; }
   | TK_ID '(' EXPRS ')' 
-    { $$.t = Tipo( "i" ); // consulta_ts( $1.v );
-    // Falta verficar o tipo da função e os parametros.
+    { $$.t = consulta_ts( $1.v ).retorno[0];
       Tipo funcao = consulta_ts($1.v);
       if(funcao.params.size()!= $3.lista_str.size())
       	erro( "Numero de parametros incorretos na função: " + $1.v + 
@@ -613,7 +629,6 @@ F : TK_CINT
     }
   | TK_ID '(' ')' 
     { $$.t = Tipo( "i" ); // consulta_ts( $1.v );
-    // Falta verficar o tipo da função e os parametros.
       Tipo funcao = consulta_ts($1.v);
       if(funcao.params.size()!= 0)
       	erro( "Numero de parametros incorretos na função: " + $1.v + 
@@ -839,7 +854,6 @@ Atributos gera_codigo_operador( Atributos s1, string opr, Atributos s3 ) {
   ss.v = gera_nome_var_temp( ss.t.tipo_base );
   
   if( s1.t.tipo_base == "s" && s3.t.tipo_base == "s" ){ 
-    // falta testar se é o operador "+"
     if(opr=="+"){
 		ss.c = s1.c + s3.c + // Codigo das expressões dos filhos da arvore.
 		       "  strncpy( " + ss.v + ", " + s1.v + ", 256 );\n" +
@@ -986,13 +1000,13 @@ string gera_teste_limite_array( string indice_1, Tipo tipoArray ) {
   string label_end = gera_label( "limite_array_ok" );
 
   string codigo = "  " + var_teste_inicio + " = " + indice_1 + " >= 0;\n" +
-                  "  " + var_teste_fim + " = " + indice_1 + " <= " +
+                  "  " + var_teste_fim + " = " + indice_1 + " < " +
                   toString( tipoArray.tamanho[0] ) + ";\n" +
                   "  " + var_teste + " = " + var_teste_inicio + " && " + 
                                              var_teste_fim + ";\n";
                                              
   codigo += "  if( " + var_teste + " ) goto " + label_end + ";\n" +
-          "    printf( \"Limite de array ultrapassado: %d <= %d <= %d\", 0 ," + indice_1 + ", " +
+          "    printf( \"Limite de array ultrapassado: Indice: %d Tamanho: %d\", " + indice_1 + ", " +
                toString( tipoArray.tamanho[0] ) + " );\n" +
                "  cout << endl;\n" + 
                "  exit( 1 );\n" + 
@@ -1007,14 +1021,15 @@ string gera_teste_limite_array( string indice_1, string indice_2, Tipo tipoArray
   string var_teste = gera_nome_var_temp( "b" );
   string label_end = gera_label( "limite_array_ok" );
 
-  string codigo = "  " + var_teste_inicio + " = " + indice_1 + " >= 0;\n" +
-                  "  " + var_teste_fim + " = " + indice_1 + " <= " +
+
+  string codigo = "  " + var_teste_inicio + " = " + indice_1 + "*" + toString(tipoArray.tamanho[1]) + "+" + indice_2 + " >= 0;\n" +
+                  "  " + var_teste_fim + " = " + indice_1 + "*" + toString(tipoArray.tamanho[1]) + "+" + indice_2 + " < " +
                   toString( tipoArray.tamanho[0]*tipoArray.tamanho[1] ) + ";\n" +
                   "  " + var_teste + " = " + var_teste_inicio + " && " + 
                                              var_teste_fim + ";\n";
   
   codigo += "  if( " + var_teste + " ) goto " + label_end + ";\n" +
-          "    printf( \"Limite de array ultrapassado: %d <= %d <= %d\", 0 ," + indice_1 + ", " +
+          "    printf( \"Limite de array ultrapassado: Indice: %d Tamanho: %d\", " + indice_1 + "*" + toString(tipoArray.tamanho[1]) + "+" + indice_2 + ", " +
                toString( tipoArray.tamanho[0]*tipoArray.tamanho[1] ) + " );\n" +
                "  cout << endl;\n" + 
                "  exit( 1 );\n" + 
@@ -1034,7 +1049,7 @@ int verifica_tipo(Tipo var1, string var2){ //verificar tipos aqui
   				return 0;		
   		}
   	}
-  	if(var1.tipo_base=="d"){
+  	else if(var1.tipo_base=="d"){
   		if(!isdigit(var2[0])){
   			if(consulta_ts(var2).tipo_base!="d")
       			return 0;
@@ -1043,6 +1058,18 @@ int verifica_tipo(Tipo var1, string var2){ //verificar tipos aqui
   			if(!stod(var2))
   				return 0;
   		}
+  	}
+  	else if(var1.tipo_base=="s"){
+  		if(!isdigit(var2[0])){
+  			if(consulta_ts(var2).tipo_base!="s")
+      			return 0;
+      	}
+  	}
+  	else if(var1.tipo_base=="c"){
+  		if(!isdigit(var2[0])){
+  			if(consulta_ts(var2).tipo_base!="c")
+      			return 0;
+      	}
   	}
   	return 1;
 }

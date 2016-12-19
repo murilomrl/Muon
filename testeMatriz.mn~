@@ -1,5 +1,4 @@
-Programa MultMatrizes;
-
+Program ImprimeMatriz;
 Var
 intr seed;
 
@@ -9,11 +8,11 @@ Var
 {    
     seed = (8253729 * seed + 2396403); 
 
-    aux = (seed mod 32767 + 32767) mod 32767;
+    aux = (seed Mod 32767 + 32767) Mod 32767;
     Retorno = aux;  
 }
 
-metodo intr multiplica( vetor real a[3][4]; vetor real b[4][2]; intr lin_a, col_a, lin_b, col_b; vetor real c[3][2])
+metodo intr multiplica( Array real a[3][4]; Array real b[4][2]; intr lin_a, col_a, lin_b, col_b; Array real c[3][2])
 Var
 	intr i, j, k;
 {   
@@ -38,7 +37,7 @@ Var
     Retorno=1;
 }
 
-metodo intr imprime( vetor real m[3][2]; intr l, c)
+metodo intr imprime( Array real m[3][2]; intr l, c)
 Var
 	intr i, j;
 {    
@@ -56,30 +55,28 @@ Var
 
 inicio
 Var
-	vetor real a[3][4]; vetor real b[4][2]; vetor real c[3][2];
-	vetor intr v[2];
-    intr i, j, k,resultado;
+	Array real a[3][4]; Array real b[4][2]; Array real c[3][2];
+	intr i, j, k,resultado;
 {
     seed = 5323;	
     para i=0; i<3
 	{
         para j=0; j<4
 		{ 
-            a[i][j] = (pseudo_random() mod 10);
+            a[i][j] = (pseudo_random() Mod 10);
 		};
     };     
     para i=0; i<4
 	{
         para j=0; j<2{ 
-            b[i][j] = (pseudo_random() mod 10);
+            b[i][j] = (pseudo_random() Mod 10);
 		};
     };
     resultado=multiplica( a, b, 3, 4, 4, 2, c );
     se resultado == 1{
     
     resultado=imprime( c, 3, 2 );
-    mostre('\n\n');
-    resultado=imprime( c, 3, 4 );
+    resultado=imprime( c, 3, 3 );
 	};
 }
 fim

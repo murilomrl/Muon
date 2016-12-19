@@ -1,11 +1,11 @@
-Program MDC;
+Programa MDC;
 
 metodo intr MDC( intr a, b)
 {
   se b == 0
     Retorno = a
   sen
-    Retorno = MDC( b, a Mod b );
+    Retorno = MDC( b, a mod b );
 }
 
 inicio

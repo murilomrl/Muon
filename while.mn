@@ -1,0 +1,15 @@
+Programa while;
+
+inicio
+Var
+	intr i;
+{
+	i=0;
+	enquanto i<10
+	{
+		mostre(i);
+		mostre('\n');
+		i=i+1;
+	};
+}
+fim

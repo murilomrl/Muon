@@ -5,153 +5,155 @@ Terminals which are not used:
    TK_THEN
    TK_TO
    TK_DO
+   TK_OF
+   TK_PTPT
 
 
-Conflict in state 123 between rule 56 and token TK_MOD resolved as reduce.
-Conflict in state 123 between rule 56 and token TK_MAIG resolved as reduce.
-Conflict in state 123 between rule 56 and token TK_MEIG resolved as reduce.
-Conflict in state 123 between rule 56 and token TK_DIF resolved as reduce.
-Conflict in state 123 between rule 56 and token TK_IG resolved as reduce.
-Conflict in state 123 between rule 56 and token TK_AND resolved as reduce.
-Conflict in state 123 between rule 56 and token '<' resolved as reduce.
-Conflict in state 123 between rule 56 and token '>' resolved as reduce.
-Conflict in state 123 between rule 56 and token '+' resolved as reduce.
-Conflict in state 123 between rule 56 and token '-' resolved as reduce.
-Conflict in state 123 between rule 56 and token '*' resolved as reduce.
-Conflict in state 123 between rule 56 and token '/' resolved as reduce.
-Conflict in state 124 between rule 61 and token TK_MOD resolved as shift.
-Conflict in state 124 between rule 61 and token TK_MAIG resolved as an error.
-Conflict in state 124 between rule 61 and token TK_MEIG resolved as an error.
-Conflict in state 124 between rule 61 and token TK_DIF resolved as an error.
-Conflict in state 124 between rule 61 and token TK_IG resolved as an error.
-Conflict in state 124 between rule 61 and token TK_AND resolved as reduce.
-Conflict in state 124 between rule 61 and token '<' resolved as an error.
-Conflict in state 124 between rule 61 and token '>' resolved as an error.
-Conflict in state 124 between rule 61 and token '+' resolved as shift.
-Conflict in state 124 between rule 61 and token '-' resolved as shift.
-Conflict in state 124 between rule 61 and token '*' resolved as shift.
-Conflict in state 124 between rule 61 and token '/' resolved as shift.
-Conflict in state 125 between rule 60 and token TK_MOD resolved as shift.
-Conflict in state 125 between rule 60 and token TK_MAIG resolved as an error.
-Conflict in state 125 between rule 60 and token TK_MEIG resolved as an error.
-Conflict in state 125 between rule 60 and token TK_DIF resolved as an error.
-Conflict in state 125 between rule 60 and token TK_IG resolved as an error.
-Conflict in state 125 between rule 60 and token TK_AND resolved as reduce.
-Conflict in state 125 between rule 60 and token '<' resolved as an error.
-Conflict in state 125 between rule 60 and token '>' resolved as an error.
-Conflict in state 125 between rule 60 and token '+' resolved as shift.
-Conflict in state 125 between rule 60 and token '-' resolved as shift.
-Conflict in state 125 between rule 60 and token '*' resolved as shift.
-Conflict in state 125 between rule 60 and token '/' resolved as shift.
-Conflict in state 126 between rule 63 and token TK_MOD resolved as shift.
-Conflict in state 126 between rule 63 and token TK_MAIG resolved as an error.
-Conflict in state 126 between rule 63 and token TK_MEIG resolved as an error.
-Conflict in state 126 between rule 63 and token TK_DIF resolved as an error.
-Conflict in state 126 between rule 63 and token TK_IG resolved as an error.
-Conflict in state 126 between rule 63 and token TK_AND resolved as reduce.
-Conflict in state 126 between rule 63 and token '<' resolved as an error.
-Conflict in state 126 between rule 63 and token '>' resolved as an error.
-Conflict in state 126 between rule 63 and token '+' resolved as shift.
-Conflict in state 126 between rule 63 and token '-' resolved as shift.
-Conflict in state 126 between rule 63 and token '*' resolved as shift.
-Conflict in state 126 between rule 63 and token '/' resolved as shift.
-Conflict in state 127 between rule 62 and token TK_MOD resolved as shift.
-Conflict in state 127 between rule 62 and token TK_MAIG resolved as an error.
-Conflict in state 127 between rule 62 and token TK_MEIG resolved as an error.
-Conflict in state 127 between rule 62 and token TK_DIF resolved as an error.
-Conflict in state 127 between rule 62 and token TK_IG resolved as an error.
-Conflict in state 127 between rule 62 and token TK_AND resolved as reduce.
-Conflict in state 127 between rule 62 and token '<' resolved as an error.
-Conflict in state 127 between rule 62 and token '>' resolved as an error.
-Conflict in state 127 between rule 62 and token '+' resolved as shift.
-Conflict in state 127 between rule 62 and token '-' resolved as shift.
-Conflict in state 127 between rule 62 and token '*' resolved as shift.
-Conflict in state 127 between rule 62 and token '/' resolved as shift.
-Conflict in state 128 between rule 64 and token TK_MOD resolved as shift.
-Conflict in state 128 between rule 64 and token TK_MAIG resolved as shift.
-Conflict in state 128 between rule 64 and token TK_MEIG resolved as shift.
-Conflict in state 128 between rule 64 and token TK_DIF resolved as shift.
-Conflict in state 128 between rule 64 and token TK_IG resolved as shift.
-Conflict in state 128 between rule 64 and token TK_AND resolved as reduce.
-Conflict in state 128 between rule 64 and token '<' resolved as shift.
-Conflict in state 128 between rule 64 and token '>' resolved as shift.
-Conflict in state 128 between rule 64 and token '+' resolved as shift.
-Conflict in state 128 between rule 64 and token '-' resolved as shift.
-Conflict in state 128 between rule 64 and token '*' resolved as shift.
-Conflict in state 128 between rule 64 and token '/' resolved as shift.
-Conflict in state 129 between rule 58 and token TK_MOD resolved as shift.
-Conflict in state 129 between rule 58 and token TK_MAIG resolved as an error.
-Conflict in state 129 between rule 58 and token TK_MEIG resolved as an error.
-Conflict in state 129 between rule 58 and token TK_DIF resolved as an error.
-Conflict in state 129 between rule 58 and token TK_IG resolved as an error.
-Conflict in state 129 between rule 58 and token TK_AND resolved as reduce.
-Conflict in state 129 between rule 58 and token '<' resolved as an error.
-Conflict in state 129 between rule 58 and token '>' resolved as an error.
-Conflict in state 129 between rule 58 and token '+' resolved as shift.
-Conflict in state 129 between rule 58 and token '-' resolved as shift.
-Conflict in state 129 between rule 58 and token '*' resolved as shift.
-Conflict in state 129 between rule 58 and token '/' resolved as shift.
-Conflict in state 130 between rule 59 and token TK_MOD resolved as shift.
-Conflict in state 130 between rule 59 and token TK_MAIG resolved as an error.
-Conflict in state 130 between rule 59 and token TK_MEIG resolved as an error.
-Conflict in state 130 between rule 59 and token TK_DIF resolved as an error.
-Conflict in state 130 between rule 59 and token TK_IG resolved as an error.
-Conflict in state 130 between rule 59 and token TK_AND resolved as reduce.
-Conflict in state 130 between rule 59 and token '<' resolved as an error.
-Conflict in state 130 between rule 59 and token '>' resolved as an error.
-Conflict in state 130 between rule 59 and token '+' resolved as shift.
-Conflict in state 130 between rule 59 and token '-' resolved as shift.
-Conflict in state 130 between rule 59 and token '*' resolved as shift.
-Conflict in state 130 between rule 59 and token '/' resolved as shift.
-Conflict in state 131 between rule 53 and token TK_MOD resolved as shift.
-Conflict in state 131 between rule 53 and token TK_MAIG resolved as reduce.
-Conflict in state 131 between rule 53 and token TK_MEIG resolved as reduce.
-Conflict in state 131 between rule 53 and token TK_DIF resolved as reduce.
-Conflict in state 131 between rule 53 and token TK_IG resolved as reduce.
-Conflict in state 131 between rule 53 and token TK_AND resolved as reduce.
-Conflict in state 131 between rule 53 and token '<' resolved as reduce.
-Conflict in state 131 between rule 53 and token '>' resolved as reduce.
-Conflict in state 131 between rule 53 and token '+' resolved as reduce.
-Conflict in state 131 between rule 53 and token '-' resolved as reduce.
-Conflict in state 131 between rule 53 and token '*' resolved as shift.
-Conflict in state 131 between rule 53 and token '/' resolved as shift.
-Conflict in state 132 between rule 54 and token TK_MOD resolved as shift.
-Conflict in state 132 between rule 54 and token TK_MAIG resolved as reduce.
-Conflict in state 132 between rule 54 and token TK_MEIG resolved as reduce.
-Conflict in state 132 between rule 54 and token TK_DIF resolved as reduce.
-Conflict in state 132 between rule 54 and token TK_IG resolved as reduce.
-Conflict in state 132 between rule 54 and token TK_AND resolved as reduce.
-Conflict in state 132 between rule 54 and token '<' resolved as reduce.
-Conflict in state 132 between rule 54 and token '>' resolved as reduce.
-Conflict in state 132 between rule 54 and token '+' resolved as reduce.
-Conflict in state 132 between rule 54 and token '-' resolved as reduce.
-Conflict in state 132 between rule 54 and token '*' resolved as shift.
-Conflict in state 132 between rule 54 and token '/' resolved as shift.
-Conflict in state 133 between rule 55 and token TK_MOD resolved as reduce.
-Conflict in state 133 between rule 55 and token TK_MAIG resolved as reduce.
-Conflict in state 133 between rule 55 and token TK_MEIG resolved as reduce.
-Conflict in state 133 between rule 55 and token TK_DIF resolved as reduce.
-Conflict in state 133 between rule 55 and token TK_IG resolved as reduce.
-Conflict in state 133 between rule 55 and token TK_AND resolved as reduce.
-Conflict in state 133 between rule 55 and token '<' resolved as reduce.
-Conflict in state 133 between rule 55 and token '>' resolved as reduce.
-Conflict in state 133 between rule 55 and token '+' resolved as reduce.
-Conflict in state 133 between rule 55 and token '-' resolved as reduce.
-Conflict in state 133 between rule 55 and token '*' resolved as reduce.
-Conflict in state 133 between rule 55 and token '/' resolved as reduce.
-Conflict in state 134 between rule 57 and token TK_MOD resolved as reduce.
-Conflict in state 134 between rule 57 and token TK_MAIG resolved as reduce.
-Conflict in state 134 between rule 57 and token TK_MEIG resolved as reduce.
-Conflict in state 134 between rule 57 and token TK_DIF resolved as reduce.
-Conflict in state 134 between rule 57 and token TK_IG resolved as reduce.
-Conflict in state 134 between rule 57 and token TK_AND resolved as reduce.
-Conflict in state 134 between rule 57 and token '<' resolved as reduce.
-Conflict in state 134 between rule 57 and token '>' resolved as reduce.
-Conflict in state 134 between rule 57 and token '+' resolved as reduce.
-Conflict in state 134 between rule 57 and token '-' resolved as reduce.
-Conflict in state 134 between rule 57 and token '*' resolved as reduce.
-Conflict in state 134 between rule 57 and token '/' resolved as reduce.
-State 104 contains 1 shift/reduce conflict.
+Conflict in state 127 between rule 60 and token TK_MOD resolved as reduce.
+Conflict in state 127 between rule 60 and token TK_MAIG resolved as reduce.
+Conflict in state 127 between rule 60 and token TK_MEIG resolved as reduce.
+Conflict in state 127 between rule 60 and token TK_DIF resolved as reduce.
+Conflict in state 127 between rule 60 and token TK_IG resolved as reduce.
+Conflict in state 127 between rule 60 and token TK_AND resolved as reduce.
+Conflict in state 127 between rule 60 and token '<' resolved as reduce.
+Conflict in state 127 between rule 60 and token '>' resolved as reduce.
+Conflict in state 127 between rule 60 and token '+' resolved as reduce.
+Conflict in state 127 between rule 60 and token '-' resolved as reduce.
+Conflict in state 127 between rule 60 and token '*' resolved as reduce.
+Conflict in state 127 between rule 60 and token '/' resolved as reduce.
+Conflict in state 128 between rule 65 and token TK_MOD resolved as shift.
+Conflict in state 128 between rule 65 and token TK_MAIG resolved as an error.
+Conflict in state 128 between rule 65 and token TK_MEIG resolved as an error.
+Conflict in state 128 between rule 65 and token TK_DIF resolved as an error.
+Conflict in state 128 between rule 65 and token TK_IG resolved as an error.
+Conflict in state 128 between rule 65 and token TK_AND resolved as reduce.
+Conflict in state 128 between rule 65 and token '<' resolved as an error.
+Conflict in state 128 between rule 65 and token '>' resolved as an error.
+Conflict in state 128 between rule 65 and token '+' resolved as shift.
+Conflict in state 128 between rule 65 and token '-' resolved as shift.
+Conflict in state 128 between rule 65 and token '*' resolved as shift.
+Conflict in state 128 between rule 65 and token '/' resolved as shift.
+Conflict in state 129 between rule 64 and token TK_MOD resolved as shift.
+Conflict in state 129 between rule 64 and token TK_MAIG resolved as an error.
+Conflict in state 129 between rule 64 and token TK_MEIG resolved as an error.
+Conflict in state 129 between rule 64 and token TK_DIF resolved as an error.
+Conflict in state 129 between rule 64 and token TK_IG resolved as an error.
+Conflict in state 129 between rule 64 and token TK_AND resolved as reduce.
+Conflict in state 129 between rule 64 and token '<' resolved as an error.
+Conflict in state 129 between rule 64 and token '>' resolved as an error.
+Conflict in state 129 between rule 64 and token '+' resolved as shift.
+Conflict in state 129 between rule 64 and token '-' resolved as shift.
+Conflict in state 129 between rule 64 and token '*' resolved as shift.
+Conflict in state 129 between rule 64 and token '/' resolved as shift.
+Conflict in state 130 between rule 67 and token TK_MOD resolved as shift.
+Conflict in state 130 between rule 67 and token TK_MAIG resolved as an error.
+Conflict in state 130 between rule 67 and token TK_MEIG resolved as an error.
+Conflict in state 130 between rule 67 and token TK_DIF resolved as an error.
+Conflict in state 130 between rule 67 and token TK_IG resolved as an error.
+Conflict in state 130 between rule 67 and token TK_AND resolved as reduce.
+Conflict in state 130 between rule 67 and token '<' resolved as an error.
+Conflict in state 130 between rule 67 and token '>' resolved as an error.
+Conflict in state 130 between rule 67 and token '+' resolved as shift.
+Conflict in state 130 between rule 67 and token '-' resolved as shift.
+Conflict in state 130 between rule 67 and token '*' resolved as shift.
+Conflict in state 130 between rule 67 and token '/' resolved as shift.
+Conflict in state 131 between rule 66 and token TK_MOD resolved as shift.
+Conflict in state 131 between rule 66 and token TK_MAIG resolved as an error.
+Conflict in state 131 between rule 66 and token TK_MEIG resolved as an error.
+Conflict in state 131 between rule 66 and token TK_DIF resolved as an error.
+Conflict in state 131 between rule 66 and token TK_IG resolved as an error.
+Conflict in state 131 between rule 66 and token TK_AND resolved as reduce.
+Conflict in state 131 between rule 66 and token '<' resolved as an error.
+Conflict in state 131 between rule 66 and token '>' resolved as an error.
+Conflict in state 131 between rule 66 and token '+' resolved as shift.
+Conflict in state 131 between rule 66 and token '-' resolved as shift.
+Conflict in state 131 between rule 66 and token '*' resolved as shift.
+Conflict in state 131 between rule 66 and token '/' resolved as shift.
+Conflict in state 132 between rule 68 and token TK_MOD resolved as shift.
+Conflict in state 132 between rule 68 and token TK_MAIG resolved as shift.
+Conflict in state 132 between rule 68 and token TK_MEIG resolved as shift.
+Conflict in state 132 between rule 68 and token TK_DIF resolved as shift.
+Conflict in state 132 between rule 68 and token TK_IG resolved as shift.
+Conflict in state 132 between rule 68 and token TK_AND resolved as reduce.
+Conflict in state 132 between rule 68 and token '<' resolved as shift.
+Conflict in state 132 between rule 68 and token '>' resolved as shift.
+Conflict in state 132 between rule 68 and token '+' resolved as shift.
+Conflict in state 132 between rule 68 and token '-' resolved as shift.
+Conflict in state 132 between rule 68 and token '*' resolved as shift.
+Conflict in state 132 between rule 68 and token '/' resolved as shift.
+Conflict in state 133 between rule 62 and token TK_MOD resolved as shift.
+Conflict in state 133 between rule 62 and token TK_MAIG resolved as an error.
+Conflict in state 133 between rule 62 and token TK_MEIG resolved as an error.
+Conflict in state 133 between rule 62 and token TK_DIF resolved as an error.
+Conflict in state 133 between rule 62 and token TK_IG resolved as an error.
+Conflict in state 133 between rule 62 and token TK_AND resolved as reduce.
+Conflict in state 133 between rule 62 and token '<' resolved as an error.
+Conflict in state 133 between rule 62 and token '>' resolved as an error.
+Conflict in state 133 between rule 62 and token '+' resolved as shift.
+Conflict in state 133 between rule 62 and token '-' resolved as shift.
+Conflict in state 133 between rule 62 and token '*' resolved as shift.
+Conflict in state 133 between rule 62 and token '/' resolved as shift.
+Conflict in state 134 between rule 63 and token TK_MOD resolved as shift.
+Conflict in state 134 between rule 63 and token TK_MAIG resolved as an error.
+Conflict in state 134 between rule 63 and token TK_MEIG resolved as an error.
+Conflict in state 134 between rule 63 and token TK_DIF resolved as an error.
+Conflict in state 134 between rule 63 and token TK_IG resolved as an error.
+Conflict in state 134 between rule 63 and token TK_AND resolved as reduce.
+Conflict in state 134 between rule 63 and token '<' resolved as an error.
+Conflict in state 134 between rule 63 and token '>' resolved as an error.
+Conflict in state 134 between rule 63 and token '+' resolved as shift.
+Conflict in state 134 between rule 63 and token '-' resolved as shift.
+Conflict in state 134 between rule 63 and token '*' resolved as shift.
+Conflict in state 134 between rule 63 and token '/' resolved as shift.
+Conflict in state 135 between rule 57 and token TK_MOD resolved as shift.
+Conflict in state 135 between rule 57 and token TK_MAIG resolved as reduce.
+Conflict in state 135 between rule 57 and token TK_MEIG resolved as reduce.
+Conflict in state 135 between rule 57 and token TK_DIF resolved as reduce.
+Conflict in state 135 between rule 57 and token TK_IG resolved as reduce.
+Conflict in state 135 between rule 57 and token TK_AND resolved as reduce.
+Conflict in state 135 between rule 57 and token '<' resolved as reduce.
+Conflict in state 135 between rule 57 and token '>' resolved as reduce.
+Conflict in state 135 between rule 57 and token '+' resolved as reduce.
+Conflict in state 135 between rule 57 and token '-' resolved as reduce.
+Conflict in state 135 between rule 57 and token '*' resolved as shift.
+Conflict in state 135 between rule 57 and token '/' resolved as shift.
+Conflict in state 136 between rule 58 and token TK_MOD resolved as shift.
+Conflict in state 136 between rule 58 and token TK_MAIG resolved as reduce.
+Conflict in state 136 between rule 58 and token TK_MEIG resolved as reduce.
+Conflict in state 136 between rule 58 and token TK_DIF resolved as reduce.
+Conflict in state 136 between rule 58 and token TK_IG resolved as reduce.
+Conflict in state 136 between rule 58 and token TK_AND resolved as reduce.
+Conflict in state 136 between rule 58 and token '<' resolved as reduce.
+Conflict in state 136 between rule 58 and token '>' resolved as reduce.
+Conflict in state 136 between rule 58 and token '+' resolved as reduce.
+Conflict in state 136 between rule 58 and token '-' resolved as reduce.
+Conflict in state 136 between rule 58 and token '*' resolved as shift.
+Conflict in state 136 between rule 58 and token '/' resolved as shift.
+Conflict in state 137 between rule 59 and token TK_MOD resolved as reduce.
+Conflict in state 137 between rule 59 and token TK_MAIG resolved as reduce.
+Conflict in state 137 between rule 59 and token TK_MEIG resolved as reduce.
+Conflict in state 137 between rule 59 and token TK_DIF resolved as reduce.
+Conflict in state 137 between rule 59 and token TK_IG resolved as reduce.
+Conflict in state 137 between rule 59 and token TK_AND resolved as reduce.
+Conflict in state 137 between rule 59 and token '<' resolved as reduce.
+Conflict in state 137 between rule 59 and token '>' resolved as reduce.
+Conflict in state 137 between rule 59 and token '+' resolved as reduce.
+Conflict in state 137 between rule 59 and token '-' resolved as reduce.
+Conflict in state 137 between rule 59 and token '*' resolved as reduce.
+Conflict in state 137 between rule 59 and token '/' resolved as reduce.
+Conflict in state 138 between rule 61 and token TK_MOD resolved as reduce.
+Conflict in state 138 between rule 61 and token TK_MAIG resolved as reduce.
+Conflict in state 138 between rule 61 and token TK_MEIG resolved as reduce.
+Conflict in state 138 between rule 61 and token TK_DIF resolved as reduce.
+Conflict in state 138 between rule 61 and token TK_IG resolved as reduce.
+Conflict in state 138 between rule 61 and token TK_AND resolved as reduce.
+Conflict in state 138 between rule 61 and token '<' resolved as reduce.
+Conflict in state 138 between rule 61 and token '>' resolved as reduce.
+Conflict in state 138 between rule 61 and token '+' resolved as reduce.
+Conflict in state 138 between rule 61 and token '-' resolved as reduce.
+Conflict in state 138 between rule 61 and token '*' resolved as reduce.
+Conflict in state 138 between rule 61 and token '/' resolved as reduce.
+State 106 contains 1 shift/reduce conflict.
 
 Grammar
 rule 1    S -> PROGRAM DECLS MAIN
@@ -165,194 +167,202 @@ rule 8    @2 ->		/* empty */
 rule 9    FUNCTION -> @1 CABECALHO CORPO @2
 rule 10   CABECALHO -> TK_FUNCTION TK_ID TK_ID OPC_PARAM
 rule 11   OPC_PARAM -> '(' PARAMS ')'
-rule 12   OPC_PARAM ->		/* empty */
+rule 12   OPC_PARAM -> '(' ')'
 rule 13   PARAMS -> PARAM ';' PARAMS
 rule 14   PARAMS -> PARAM
 rule 15   PARAM -> TK_ID IDS
-rule 16   PARAM -> IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID
-rule 17   CORPO -> TK_VAR VARS BLOCO
-rule 18   CORPO -> BLOCO
-rule 19   VARS -> VAR ';' VARS
-rule 20   VARS ->		/* empty */
-rule 21   VAR -> TK_ID IDS
-rule 22   VAR -> IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID
-rule 23   IDS -> IDS ',' TK_ID
-rule 24   IDS -> IDS ',' '*' TK_ID
-rule 25   IDS -> TK_ID
-rule 26   IDS -> '*' TK_ID
-rule 27   MAIN -> TK_MAININ CORPO TK_MAINFIM
-rule 28   @3 ->		/* empty */
-rule 29   BLOCO -> TK_BEGIN @3 CMDS TK_END
-rule 30   CMDS -> CMD ';' CMDS
-rule 31   CMDS ->		/* empty */
-rule 32   CMD -> WRITELN
-rule 33   CMD -> READ
-rule 34   CMD -> ATRIB
-rule 35   CMD -> CMD_IF
-rule 36   CMD -> BLOCO
-rule 37   CMD -> CMD_FOR
-rule 38   CMD -> CMD_WHILE
-rule 39   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD
-rule 40   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E CMD
-rule 41   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD
-rule 42   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD
-rule 43   CMD_WHILE -> TK_WHILE NOME_VAR '<' E CMD
-rule 44   CMD_WHILE -> TK_WHILE NOME_VAR '>' E CMD
-rule 45   CMD_WHILE -> TK_WHILE NOME_VAR TK_MAIG E CMD
-rule 46   CMD_WHILE -> TK_WHILE NOME_VAR TK_MEIG E CMD
-rule 47   CMD_IF -> TK_IF E CMD
-rule 48   CMD_IF -> TK_IF E CMD TK_ELSE CMD
-rule 49   WRITELN -> TK_WRITELN '(' E ')'
-rule 50   READ -> TK_READ '(' E ',' NOME_VAR ')'
-rule 51   ATRIB -> TK_ID TK_ATRIB E
-rule 52   ATRIB -> TK_ID '[' E ']' TK_ATRIB E
-rule 53   E -> E '+' E
-rule 54   E -> E '-' E
-rule 55   E -> E '*' E
-rule 56   E -> E TK_MOD E
-rule 57   E -> E '/' E
-rule 58   E -> E '<' E
-rule 59   E -> E '>' E
-rule 60   E -> E TK_MEIG E
-rule 61   E -> E TK_MAIG E
-rule 62   E -> E TK_IG E
-rule 63   E -> E TK_DIF E
-rule 64   E -> E TK_AND E
-rule 65   E -> '(' E ')'
-rule 66   E -> F
-rule 67   F -> TK_CINT
-rule 68   F -> TK_CDOUBLE
-rule 69   F -> TK_CSTRING
-rule 70   F -> TK_ID '[' E ']'
-rule 71   F -> TK_ID '[' E ']' '[' E ']'
-rule 72   F -> TK_ID
-rule 73   F -> '@' TK_ID
-rule 74   F -> TK_ID '(' EXPRS ')'
-rule 75   EXPRS -> EXPRS ',' E
-rule 76   EXPRS -> E
-rule 77   NOME_VAR -> TK_ID
+rule 16   PARAM -> TK_ARRAY TK_ID IDS '[' TK_CINT ']'
+rule 17   PARAM -> TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' TK_CINT ']'
+rule 18   CORPO -> TK_VAR VARS BLOCO
+rule 19   CORPO -> BLOCO
+rule 20   VARS -> VAR ';' VARS
+rule 21   VARS ->		/* empty */
+rule 22   VAR -> TK_ID IDS
+rule 23   VAR -> TK_ARRAY TK_ID IDS '[' TK_CINT ']'
+rule 24   VAR -> TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' TK_CINT ']'
+rule 25   IDS -> IDS ',' TK_ID
+rule 26   IDS -> IDS ',' '*' TK_ID
+rule 27   IDS -> TK_ID
+rule 28   IDS -> '*' TK_ID
+rule 29   MAIN -> INICIA CORPO TK_MAINFIM
+rule 30   INICIA -> TK_MAININ
+rule 31   @3 ->		/* empty */
+rule 32   BLOCO -> TK_BEGIN @3 CMDS TK_END
+rule 33   CMDS -> CMD ';' CMDS
+rule 34   CMDS ->		/* empty */
+rule 35   CMD -> WRITELN
+rule 36   CMD -> READ
+rule 37   CMD -> ATRIB
+rule 38   CMD -> CMD_IF
+rule 39   CMD -> BLOCO
+rule 40   CMD -> CMD_FOR
+rule 41   CMD -> CMD_WHILE
+rule 42   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD
+rule 43   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E CMD
+rule 44   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD
+rule 45   CMD_FOR -> TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD
+rule 46   CMD_WHILE -> TK_WHILE NOME_VAR '<' E CMD
+rule 47   CMD_WHILE -> TK_WHILE NOME_VAR '>' E CMD
+rule 48   CMD_WHILE -> TK_WHILE NOME_VAR TK_MAIG E CMD
+rule 49   CMD_WHILE -> TK_WHILE NOME_VAR TK_MEIG E CMD
+rule 50   CMD_IF -> TK_IF E CMD
+rule 51   CMD_IF -> TK_IF E CMD TK_ELSE CMD
+rule 52   WRITELN -> TK_WRITELN '(' E ')'
+rule 53   READ -> TK_READ '(' E ',' NOME_VAR ')'
+rule 54   ATRIB -> TK_ID TK_ATRIB E
+rule 55   ATRIB -> TK_ID '[' E ']' TK_ATRIB E
+rule 56   ATRIB -> TK_ID '[' E ']' '[' E ']' TK_ATRIB E
+rule 57   E -> E '+' E
+rule 58   E -> E '-' E
+rule 59   E -> E '*' E
+rule 60   E -> E TK_MOD E
+rule 61   E -> E '/' E
+rule 62   E -> E '<' E
+rule 63   E -> E '>' E
+rule 64   E -> E TK_MEIG E
+rule 65   E -> E TK_MAIG E
+rule 66   E -> E TK_IG E
+rule 67   E -> E TK_DIF E
+rule 68   E -> E TK_AND E
+rule 69   E -> '(' E ')'
+rule 70   E -> F
+rule 71   F -> TK_CINT
+rule 72   F -> TK_CDOUBLE
+rule 73   F -> TK_CSTRING
+rule 74   F -> TK_ID '[' E ']'
+rule 75   F -> TK_ID '[' E ']' '[' E ']'
+rule 76   F -> TK_ID
+rule 77   F -> '@' TK_ID
+rule 78   F -> TK_ID '(' EXPRS ')'
+rule 79   F -> TK_ID '(' ')'
+rule 80   EXPRS -> EXPRS ',' E
+rule 81   EXPRS -> E
+rule 82   NOME_VAR -> TK_ID
+rule 83   NOME_VAR -> TK_ID '[' TK_CINT ']'
 
 Terminals, with rules where they appear
 
 $ (-1)
-'(' (40) 11 49 50 65 74
-')' (41) 11 49 50 65 74
-'*' (42) 24 26 55
-'+' (43) 53
-',' (44) 23 24 50 75
-'-' (45) 54
-'/' (47) 57
-':' (58) 16 22
-';' (59) 2 13 19 30 39 40 41 42
-'<' (60) 39 43 58
-'>' (62) 40 44 59
-'@' (64) 73
-'[' (91) 16 22 52 70 71
-']' (93) 16 22 52 70 71
+'(' (40) 11 12 52 53 69 78 79
+')' (41) 11 12 52 53 69 78 79
+'*' (42) 26 28 59
+'+' (43) 57
+',' (44) 25 26 53 80
+'-' (45) 58
+'/' (47) 61
+';' (59) 2 13 20 33 42 43 44 45
+'<' (60) 42 46 62
+'>' (62) 43 47 63
+'@' (64) 77
+'[' (91) 16 17 23 24 55 56 74 75 83
+']' (93) 16 17 23 24 55 56 74 75 83
 error (256)
-TK_ID (258) 2 10 15 16 21 22 23 24 25 26 51 52 70 71 72 73 74 77
-TK_CINT (259) 16 22 67
-TK_CDOUBLE (260) 68
-TK_VAR (261) 5 17
+TK_ID (258) 2 10 15 16 17 22 23 24 25 26 27 28 54 55 56 74 75 76 77
+    78 79 82 83
+TK_CINT (259) 16 17 23 24 71 83
+TK_CDOUBLE (260) 72
+TK_VAR (261) 5 18
 TK_PROGRAM (262) 2
-TK_BEGIN (263) 29
-TK_END (264) 29
-TK_MAININ (265) 27
-TK_MAINFIM (266) 27
-TK_ATRIB (267) 39 40 41 42 51 52
-TK_WRITELN (268) 49
-TK_READ (269) 50
-TK_CSTRING (270) 69
+TK_BEGIN (263) 32
+TK_END (264) 32
+TK_MAININ (265) 30
+TK_MAINFIM (266) 29
+TK_ATRIB (267) 42 43 44 45 54 55 56
+TK_WRITELN (268) 52
+TK_READ (269) 53
+TK_CSTRING (270) 73
 TK_FUNCTION (271) 10
-TK_MOD (272) 56
-TK_MAIG (273) 42 45 61
-TK_MEIG (274) 41 46 60
-TK_DIF (275) 63
-TK_IG (276) 62
-TK_IF (277) 47 48
+TK_MOD (272) 60
+TK_MAIG (273) 45 48 65
+TK_MEIG (274) 44 49 64
+TK_DIF (275) 67
+TK_IG (276) 66
+TK_IF (277) 50 51
 TK_THEN (278)
-TK_ELSE (279) 48
-TK_AND (280) 64
-TK_FOR (281) 39 40 41 42
+TK_ELSE (279) 51
+TK_AND (280) 68
+TK_FOR (281) 42 43 44 45
 TK_TO (282)
 TK_DO (283)
-TK_ARRAY (284) 16 22
-TK_OF (285) 16 22
-TK_PTPT (286) 16 22
-TK_WHILE (287) 43 44 45 46
+TK_ARRAY (284) 16 17 23 24
+TK_OF (285)
+TK_PTPT (286)
+TK_WHILE (287) 46 47 48 49
 
 Nonterminals, with rules where they appear
 
-S (47)
+S (46)
     on left: 1
-PROGRAM (48)
+PROGRAM (47)
     on left: 2, on right: 1
-DECLS (49)
+DECLS (48)
     on left: 3 4, on right: 1 3
-DECL (50)
+DECL (49)
     on left: 5 6, on right: 3
-FUNCTION (51)
+FUNCTION (50)
     on left: 9, on right: 6
-@1 (52)
+@1 (51)
     on left: 7, on right: 9
-@2 (53)
+@2 (52)
     on left: 8, on right: 9
-CABECALHO (54)
+CABECALHO (53)
     on left: 10, on right: 9
-OPC_PARAM (55)
+OPC_PARAM (54)
     on left: 11 12, on right: 10
-PARAMS (56)
+PARAMS (55)
     on left: 13 14, on right: 11 13
-PARAM (57)
-    on left: 15 16, on right: 13 14
-CORPO (58)
-    on left: 17 18, on right: 9 27
-VARS (59)
-    on left: 19 20, on right: 5 17 19
-VAR (60)
-    on left: 21 22, on right: 19
-IDS (61)
-    on left: 23 24 25 26, on right: 15 16 21 22 23 24
-MAIN (62)
-    on left: 27, on right: 1
+PARAM (56)
+    on left: 15 16 17, on right: 13 14
+CORPO (57)
+    on left: 18 19, on right: 9 29
+VARS (58)
+    on left: 20 21, on right: 5 18 20
+VAR (59)
+    on left: 22 23 24, on right: 20
+IDS (60)
+    on left: 25 26 27 28, on right: 15 16 17 22 23 24 25 26
+MAIN (61)
+    on left: 29, on right: 1
+INICIA (62)
+    on left: 30, on right: 29
 BLOCO (63)
-    on left: 29, on right: 17 18 36
+    on left: 32, on right: 18 19 39
 @3 (64)
-    on left: 28, on right: 29
+    on left: 31, on right: 32
 CMDS (65)
-    on left: 30 31, on right: 29 30
+    on left: 33 34, on right: 32 33
 CMD (66)
-    on left: 32 33 34 35 36 37 38, on right: 30 39 40 41 42 43 44 45
-    46 47 48
+    on left: 35 36 37 38 39 40 41, on right: 33 42 43 44 45 46 47 48
+    49 50 51
 CMD_FOR (67)
-    on left: 39 40 41 42, on right: 37
+    on left: 42 43 44 45, on right: 40
 CMD_WHILE (68)
-    on left: 43 44 45 46, on right: 38
+    on left: 46 47 48 49, on right: 41
 CMD_IF (69)
-    on left: 47 48, on right: 35
+    on left: 50 51, on right: 38
 WRITELN (70)
-    on left: 49, on right: 32
+    on left: 52, on right: 35
 READ (71)
-    on left: 50, on right: 33
+    on left: 53, on right: 36
 ATRIB (72)
-    on left: 51 52, on right: 34
+    on left: 54 55 56, on right: 37
 E (73)
-    on left: 53 54 55 56 57 58 59 60 61 62 63 64 65 66,
-    on right: 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56
-    57 58 59 60 61 62 63 64 65 70 71 75 76
+    on left: 57 58 59 60 61 62 63 64 65 66 67 68 69 70,
+    on right: 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59
+    60 61 62 63 64 65 66 67 68 69 74 75 80 81
 F (74)
-    on left: 67 68 69 70 71 72 73 74, on right: 66
+    on left: 71 72 73 74 75 76 77 78 79, on right: 70
 EXPRS (75)
-    on left: 75 76, on right: 74 75
+    on left: 80 81, on right: 78 80
 NOME_VAR (76)
-    on left: 77, on right: 39 40 41 42 43 44 45 46 50
+    on left: 82 83, on right: 42 43 44 45 46 47 48 49 53
 
 
 state 0
 
     TK_PROGRAM	shift, and go to state 1
 
-    S   	go to state 183
+    S   	go to state 192
     PROGRAM	go to state 2
 
 
@@ -394,13 +404,12 @@ state 4
     DECL  ->  TK_VAR . VARS   (rule 5)
 
     TK_ID	shift, and go to state 10
-    '*' 	shift, and go to state 11
+    TK_ARRAY	shift, and go to state 11
 
-    $default	reduce using rule 20 (VARS)
+    $default	reduce using rule 21 (VARS)
 
     VARS	go to state 12
     VAR 	go to state 13
-    IDS 	go to state 14
 
 
 
@@ -408,9 +417,10 @@ state 5
 
     S  ->  PROGRAM DECLS . MAIN   (rule 1)
 
-    TK_MAININ	shift, and go to state 15
+    TK_MAININ	shift, and go to state 14
 
-    MAIN	go to state 16
+    MAIN	go to state 15
+    INICIA	go to state 16
 
 
 
@@ -458,23 +468,21 @@ state 9
 
 state 10
 
-    VAR  ->  TK_ID . IDS   (rule 21)
-    IDS  ->  TK_ID .   (rule 25)
+    VAR  ->  TK_ID . IDS   (rule 22)
 
     TK_ID	shift, and go to state 20
-    '*' 	shift, and go to state 11
+    '*' 	shift, and go to state 21
 
-    $default	reduce using rule 25 (IDS)
-
-    IDS 	go to state 21
+    IDS 	go to state 22
 
 
 
 state 11
 
-    IDS  ->  '*' . TK_ID   (rule 26)
+    VAR  ->  TK_ARRAY . TK_ID IDS '[' TK_CINT ']'   (rule 23)
+    VAR  ->  TK_ARRAY . TK_ID IDS '[' TK_CINT ']' '[' TK_CINT ']'   (rule 24)
 
-    TK_ID	shift, and go to state 22
+    TK_ID	shift, and go to state 23
 
 
 
@@ -488,40 +496,37 @@ state 12
 
 state 13
 
-    VARS  ->  VAR . ';' VARS   (rule 19)
+    VARS  ->  VAR . ';' VARS   (rule 20)
 
-    ';' 	shift, and go to state 23
+    ';' 	shift, and go to state 24
 
 
 
 state 14
 
-    VAR  ->  IDS . ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 22)
-    IDS  ->  IDS . ',' TK_ID   (rule 23)
-    IDS  ->  IDS . ',' '*' TK_ID   (rule 24)
+    INICIA  ->  TK_MAININ .   (rule 30)
 
-    ':' 	shift, and go to state 24
-    ',' 	shift, and go to state 25
+    $default	reduce using rule 30 (INICIA)
 
 
 
 state 15
 
-    MAIN  ->  TK_MAININ . CORPO TK_MAINFIM   (rule 27)
+    S  ->  PROGRAM DECLS MAIN .   (rule 1)
 
-    TK_VAR	shift, and go to state 26
-    TK_BEGIN	shift, and go to state 27
-
-    CORPO	go to state 28
-    BLOCO	go to state 29
+    $default	reduce using rule 1 (S)
 
 
 
 state 16
 
-    S  ->  PROGRAM DECLS MAIN .   (rule 1)
+    MAIN  ->  INICIA . CORPO TK_MAINFIM   (rule 29)
 
-    $default	reduce using rule 1 (S)
+    TK_VAR	shift, and go to state 25
+    TK_BEGIN	shift, and go to state 26
+
+    CORPO	go to state 27
+    BLOCO	go to state 28
 
 
 
@@ -537,7 +542,7 @@ state 18
 
     CABECALHO  ->  TK_FUNCTION . TK_ID TK_ID OPC_PARAM   (rule 10)
 
-    TK_ID	shift, and go to state 30
+    TK_ID	shift, and go to state 29
 
 
 
@@ -545,189 +550,187 @@ state 19
 
     FUNCTION  ->  @1 CABECALHO . CORPO @2   (rule 9)
 
-    TK_VAR	shift, and go to state 26
-    TK_BEGIN	shift, and go to state 27
+    TK_VAR	shift, and go to state 25
+    TK_BEGIN	shift, and go to state 26
 
-    CORPO	go to state 31
-    BLOCO	go to state 29
+    CORPO	go to state 30
+    BLOCO	go to state 28
 
 
 
 state 20
 
-    IDS  ->  TK_ID .   (rule 25)
+    IDS  ->  TK_ID .   (rule 27)
 
-    $default	reduce using rule 25 (IDS)
+    $default	reduce using rule 27 (IDS)
 
 
 
 state 21
 
-    VAR  ->  TK_ID IDS .   (rule 21)
-    IDS  ->  IDS . ',' TK_ID   (rule 23)
-    IDS  ->  IDS . ',' '*' TK_ID   (rule 24)
+    IDS  ->  '*' . TK_ID   (rule 28)
 
-    ',' 	shift, and go to state 25
-
-    $default	reduce using rule 21 (VAR)
+    TK_ID	shift, and go to state 31
 
 
 
 state 22
 
-    IDS  ->  '*' TK_ID .   (rule 26)
+    VAR  ->  TK_ID IDS .   (rule 22)
+    IDS  ->  IDS . ',' TK_ID   (rule 25)
+    IDS  ->  IDS . ',' '*' TK_ID   (rule 26)
 
-    $default	reduce using rule 26 (IDS)
+    ',' 	shift, and go to state 32
+
+    $default	reduce using rule 22 (VAR)
 
 
 
 state 23
 
-    VARS  ->  VAR ';' . VARS   (rule 19)
+    VAR  ->  TK_ARRAY TK_ID . IDS '[' TK_CINT ']'   (rule 23)
+    VAR  ->  TK_ARRAY TK_ID . IDS '[' TK_CINT ']' '[' TK_CINT ']'   (rule 24)
 
-    TK_ID	shift, and go to state 10
-    '*' 	shift, and go to state 11
+    TK_ID	shift, and go to state 20
+    '*' 	shift, and go to state 21
 
-    $default	reduce using rule 20 (VARS)
-
-    VARS	go to state 32
-    VAR 	go to state 13
-    IDS 	go to state 14
+    IDS 	go to state 33
 
 
 
 state 24
 
-    VAR  ->  IDS ':' . TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 22)
+    VARS  ->  VAR ';' . VARS   (rule 20)
 
-    TK_ARRAY	shift, and go to state 33
+    TK_ID	shift, and go to state 10
+    TK_ARRAY	shift, and go to state 11
+
+    $default	reduce using rule 21 (VARS)
+
+    VARS	go to state 34
+    VAR 	go to state 13
 
 
 
 state 25
 
-    IDS  ->  IDS ',' . TK_ID   (rule 23)
-    IDS  ->  IDS ',' . '*' TK_ID   (rule 24)
+    CORPO  ->  TK_VAR . VARS BLOCO   (rule 18)
 
-    TK_ID	shift, and go to state 34
-    '*' 	shift, and go to state 35
+    TK_ID	shift, and go to state 10
+    TK_ARRAY	shift, and go to state 11
+
+    $default	reduce using rule 21 (VARS)
+
+    VARS	go to state 35
+    VAR 	go to state 13
 
 
 
 state 26
 
-    CORPO  ->  TK_VAR . VARS BLOCO   (rule 17)
+    BLOCO  ->  TK_BEGIN . @3 CMDS TK_END   (rule 32)
 
-    TK_ID	shift, and go to state 10
-    '*' 	shift, and go to state 11
+    $default	reduce using rule 31 (@3)
 
-    $default	reduce using rule 20 (VARS)
-
-    VARS	go to state 36
-    VAR 	go to state 13
-    IDS 	go to state 14
+    @3  	go to state 36
 
 
 
 state 27
 
-    BLOCO  ->  TK_BEGIN . @3 CMDS TK_END   (rule 29)
+    MAIN  ->  INICIA CORPO . TK_MAINFIM   (rule 29)
 
-    $default	reduce using rule 28 (@3)
-
-    @3  	go to state 37
+    TK_MAINFIM	shift, and go to state 37
 
 
 
 state 28
 
-    MAIN  ->  TK_MAININ CORPO . TK_MAINFIM   (rule 27)
+    CORPO  ->  BLOCO .   (rule 19)
 
-    TK_MAINFIM	shift, and go to state 38
+    $default	reduce using rule 19 (CORPO)
 
 
 
 state 29
 
-    CORPO  ->  BLOCO .   (rule 18)
+    CABECALHO  ->  TK_FUNCTION TK_ID . TK_ID OPC_PARAM   (rule 10)
 
-    $default	reduce using rule 18 (CORPO)
+    TK_ID	shift, and go to state 38
 
 
 
 state 30
 
-    CABECALHO  ->  TK_FUNCTION TK_ID . TK_ID OPC_PARAM   (rule 10)
+    FUNCTION  ->  @1 CABECALHO CORPO . @2   (rule 9)
 
-    TK_ID	shift, and go to state 39
+    $default	reduce using rule 8 (@2)
+
+    @2  	go to state 39
 
 
 
 state 31
 
-    FUNCTION  ->  @1 CABECALHO CORPO . @2   (rule 9)
+    IDS  ->  '*' TK_ID .   (rule 28)
 
-    $default	reduce using rule 8 (@2)
-
-    @2  	go to state 40
+    $default	reduce using rule 28 (IDS)
 
 
 
 state 32
 
-    VARS  ->  VAR ';' VARS .   (rule 19)
+    IDS  ->  IDS ',' . TK_ID   (rule 25)
+    IDS  ->  IDS ',' . '*' TK_ID   (rule 26)
 
-    $default	reduce using rule 19 (VARS)
+    TK_ID	shift, and go to state 40
+    '*' 	shift, and go to state 41
 
 
 
 state 33
 
-    VAR  ->  IDS ':' TK_ARRAY . '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 22)
+    VAR  ->  TK_ARRAY TK_ID IDS . '[' TK_CINT ']'   (rule 23)
+    VAR  ->  TK_ARRAY TK_ID IDS . '[' TK_CINT ']' '[' TK_CINT ']'   (rule 24)
+    IDS  ->  IDS . ',' TK_ID   (rule 25)
+    IDS  ->  IDS . ',' '*' TK_ID   (rule 26)
 
-    '[' 	shift, and go to state 41
+    '[' 	shift, and go to state 42
+    ',' 	shift, and go to state 32
 
 
 
 state 34
 
-    IDS  ->  IDS ',' TK_ID .   (rule 23)
+    VARS  ->  VAR ';' VARS .   (rule 20)
 
-    $default	reduce using rule 23 (IDS)
+    $default	reduce using rule 20 (VARS)
 
 
 
 state 35
 
-    IDS  ->  IDS ',' '*' . TK_ID   (rule 24)
+    CORPO  ->  TK_VAR VARS . BLOCO   (rule 18)
 
-    TK_ID	shift, and go to state 42
-
-
-
-state 36
-
-    CORPO  ->  TK_VAR VARS . BLOCO   (rule 17)
-
-    TK_BEGIN	shift, and go to state 27
+    TK_BEGIN	shift, and go to state 26
 
     BLOCO	go to state 43
 
 
 
-state 37
+state 36
 
-    BLOCO  ->  TK_BEGIN @3 . CMDS TK_END   (rule 29)
+    BLOCO  ->  TK_BEGIN @3 . CMDS TK_END   (rule 32)
 
     TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
+    TK_BEGIN	shift, and go to state 26
     TK_WRITELN	shift, and go to state 45
     TK_READ	shift, and go to state 46
     TK_IF	shift, and go to state 47
     TK_FOR	shift, and go to state 48
     TK_WHILE	shift, and go to state 49
 
-    $default	reduce using rule 31 (CMDS)
+    $default	reduce using rule 34 (CMDS)
 
     BLOCO	go to state 50
     CMDS	go to state 51
@@ -741,27 +744,25 @@ state 37
 
 
 
+state 37
+
+    MAIN  ->  INICIA CORPO TK_MAINFIM .   (rule 29)
+
+    $default	reduce using rule 29 (MAIN)
+
+
+
 state 38
-
-    MAIN  ->  TK_MAININ CORPO TK_MAINFIM .   (rule 27)
-
-    $default	reduce using rule 27 (MAIN)
-
-
-
-state 39
 
     CABECALHO  ->  TK_FUNCTION TK_ID TK_ID . OPC_PARAM   (rule 10)
 
     '(' 	shift, and go to state 59
 
-    $default	reduce using rule 12 (OPC_PARAM)
-
     OPC_PARAM	go to state 60
 
 
 
-state 40
+state 39
 
     FUNCTION  ->  @1 CABECALHO CORPO @2 .   (rule 9)
 
@@ -769,181 +770,192 @@ state 40
 
 
 
+state 40
+
+    IDS  ->  IDS ',' TK_ID .   (rule 25)
+
+    $default	reduce using rule 25 (IDS)
+
+
+
 state 41
 
-    VAR  ->  IDS ':' TK_ARRAY '[' . TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 22)
+    IDS  ->  IDS ',' '*' . TK_ID   (rule 26)
 
-    TK_CINT	shift, and go to state 61
+    TK_ID	shift, and go to state 61
 
 
 
 state 42
 
-    IDS  ->  IDS ',' '*' TK_ID .   (rule 24)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' . TK_CINT ']'   (rule 23)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' . TK_CINT ']' '[' TK_CINT ']'   (rule 24)
 
-    $default	reduce using rule 24 (IDS)
+    TK_CINT	shift, and go to state 62
 
 
 
 state 43
 
-    CORPO  ->  TK_VAR VARS BLOCO .   (rule 17)
+    CORPO  ->  TK_VAR VARS BLOCO .   (rule 18)
 
-    $default	reduce using rule 17 (CORPO)
+    $default	reduce using rule 18 (CORPO)
 
 
 
 state 44
 
-    ATRIB  ->  TK_ID . TK_ATRIB E   (rule 51)
-    ATRIB  ->  TK_ID . '[' E ']' TK_ATRIB E   (rule 52)
+    ATRIB  ->  TK_ID . TK_ATRIB E   (rule 54)
+    ATRIB  ->  TK_ID . '[' E ']' TK_ATRIB E   (rule 55)
+    ATRIB  ->  TK_ID . '[' E ']' '[' E ']' TK_ATRIB E   (rule 56)
 
-    TK_ATRIB	shift, and go to state 62
-    '[' 	shift, and go to state 63
+    TK_ATRIB	shift, and go to state 63
+    '[' 	shift, and go to state 64
 
 
 
 state 45
 
-    WRITELN  ->  TK_WRITELN . '(' E ')'   (rule 49)
-
-    '(' 	shift, and go to state 64
-
-
-
-state 46
-
-    READ  ->  TK_READ . '(' E ',' NOME_VAR ')'   (rule 50)
+    WRITELN  ->  TK_WRITELN . '(' E ')'   (rule 52)
 
     '(' 	shift, and go to state 65
 
 
 
+state 46
+
+    READ  ->  TK_READ . '(' E ',' NOME_VAR ')'   (rule 53)
+
+    '(' 	shift, and go to state 66
+
+
+
 state 47
 
-    CMD_IF  ->  TK_IF . E CMD   (rule 47)
-    CMD_IF  ->  TK_IF . E CMD TK_ELSE CMD   (rule 48)
+    CMD_IF  ->  TK_IF . E CMD   (rule 50)
+    CMD_IF  ->  TK_IF . E CMD TK_ELSE CMD   (rule 51)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 72
-    F   	go to state 73
+    E   	go to state 73
+    F   	go to state 74
 
 
 
 state 48
 
-    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD   (rule 39)
-    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E CMD   (rule 40)
-    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD   (rule 41)
-    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD   (rule 42)
+    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD   (rule 42)
+    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E CMD   (rule 43)
+    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD   (rule 44)
+    CMD_FOR  ->  TK_FOR . NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD   (rule 45)
 
-    TK_ID	shift, and go to state 74
-
-    NOME_VAR	go to state 75
-
-
-
-state 49
-
-    CMD_WHILE  ->  TK_WHILE . NOME_VAR '<' E CMD   (rule 43)
-    CMD_WHILE  ->  TK_WHILE . NOME_VAR '>' E CMD   (rule 44)
-    CMD_WHILE  ->  TK_WHILE . NOME_VAR TK_MAIG E CMD   (rule 45)
-    CMD_WHILE  ->  TK_WHILE . NOME_VAR TK_MEIG E CMD   (rule 46)
-
-    TK_ID	shift, and go to state 74
+    TK_ID	shift, and go to state 75
 
     NOME_VAR	go to state 76
 
 
 
+state 49
+
+    CMD_WHILE  ->  TK_WHILE . NOME_VAR '<' E CMD   (rule 46)
+    CMD_WHILE  ->  TK_WHILE . NOME_VAR '>' E CMD   (rule 47)
+    CMD_WHILE  ->  TK_WHILE . NOME_VAR TK_MAIG E CMD   (rule 48)
+    CMD_WHILE  ->  TK_WHILE . NOME_VAR TK_MEIG E CMD   (rule 49)
+
+    TK_ID	shift, and go to state 75
+
+    NOME_VAR	go to state 77
+
+
+
 state 50
 
-    CMD  ->  BLOCO .   (rule 36)
+    CMD  ->  BLOCO .   (rule 39)
 
-    $default	reduce using rule 36 (CMD)
+    $default	reduce using rule 39 (CMD)
 
 
 
 state 51
 
-    BLOCO  ->  TK_BEGIN @3 CMDS . TK_END   (rule 29)
+    BLOCO  ->  TK_BEGIN @3 CMDS . TK_END   (rule 32)
 
-    TK_END	shift, and go to state 77
+    TK_END	shift, and go to state 78
 
 
 
 state 52
 
-    CMDS  ->  CMD . ';' CMDS   (rule 30)
+    CMDS  ->  CMD . ';' CMDS   (rule 33)
 
-    ';' 	shift, and go to state 78
+    ';' 	shift, and go to state 79
 
 
 
 state 53
 
-    CMD  ->  CMD_FOR .   (rule 37)
+    CMD  ->  CMD_FOR .   (rule 40)
 
-    $default	reduce using rule 37 (CMD)
+    $default	reduce using rule 40 (CMD)
 
 
 
 state 54
 
-    CMD  ->  CMD_WHILE .   (rule 38)
+    CMD  ->  CMD_WHILE .   (rule 41)
 
-    $default	reduce using rule 38 (CMD)
+    $default	reduce using rule 41 (CMD)
 
 
 
 state 55
 
-    CMD  ->  CMD_IF .   (rule 35)
+    CMD  ->  CMD_IF .   (rule 38)
 
-    $default	reduce using rule 35 (CMD)
+    $default	reduce using rule 38 (CMD)
 
 
 
 state 56
 
-    CMD  ->  WRITELN .   (rule 32)
+    CMD  ->  WRITELN .   (rule 35)
 
-    $default	reduce using rule 32 (CMD)
+    $default	reduce using rule 35 (CMD)
 
 
 
 state 57
 
-    CMD  ->  READ .   (rule 33)
+    CMD  ->  READ .   (rule 36)
 
-    $default	reduce using rule 33 (CMD)
+    $default	reduce using rule 36 (CMD)
 
 
 
 state 58
 
-    CMD  ->  ATRIB .   (rule 34)
+    CMD  ->  ATRIB .   (rule 37)
 
-    $default	reduce using rule 34 (CMD)
+    $default	reduce using rule 37 (CMD)
 
 
 
 state 59
 
     OPC_PARAM  ->  '(' . PARAMS ')'   (rule 11)
+    OPC_PARAM  ->  '(' . ')'   (rule 12)
 
-    TK_ID	shift, and go to state 79
-    '*' 	shift, and go to state 11
+    TK_ID	shift, and go to state 80
+    TK_ARRAY	shift, and go to state 81
+    ')' 	shift, and go to state 82
 
-    PARAMS	go to state 80
-    PARAM	go to state 81
-    IDS 	go to state 82
+    PARAMS	go to state 83
+    PARAM	go to state 84
 
 
 
@@ -957,177 +969,188 @@ state 60
 
 state 61
 
-    VAR  ->  IDS ':' TK_ARRAY '[' TK_CINT . TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 22)
+    IDS  ->  IDS ',' '*' TK_ID .   (rule 26)
 
-    TK_PTPT	shift, and go to state 83
+    $default	reduce using rule 26 (IDS)
 
 
 
 state 62
 
-    ATRIB  ->  TK_ID TK_ATRIB . E   (rule 51)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' TK_CINT . ']'   (rule 23)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' TK_CINT . ']' '[' TK_CINT ']'   (rule 24)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 84
-    F   	go to state 73
+    ']' 	shift, and go to state 85
 
 
 
 state 63
 
-    ATRIB  ->  TK_ID '[' . E ']' TK_ATRIB E   (rule 52)
+    ATRIB  ->  TK_ID TK_ATRIB . E   (rule 54)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 85
-    F   	go to state 73
+    E   	go to state 86
+    F   	go to state 74
 
 
 
 state 64
 
-    WRITELN  ->  TK_WRITELN '(' . E ')'   (rule 49)
+    ATRIB  ->  TK_ID '[' . E ']' TK_ATRIB E   (rule 55)
+    ATRIB  ->  TK_ID '[' . E ']' '[' E ']' TK_ATRIB E   (rule 56)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 86
-    F   	go to state 73
+    E   	go to state 87
+    F   	go to state 74
 
 
 
 state 65
 
-    READ  ->  TK_READ '(' . E ',' NOME_VAR ')'   (rule 50)
+    WRITELN  ->  TK_WRITELN '(' . E ')'   (rule 52)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 87
-    F   	go to state 73
+    E   	go to state 88
+    F   	go to state 74
 
 
 
 state 66
 
-    F  ->  TK_ID . '[' E ']'   (rule 70)
-    F  ->  TK_ID . '[' E ']' '[' E ']'   (rule 71)
-    F  ->  TK_ID .   (rule 72)
-    F  ->  TK_ID . '(' EXPRS ')'   (rule 74)
+    READ  ->  TK_READ '(' . E ',' NOME_VAR ')'   (rule 53)
 
-    '(' 	shift, and go to state 88
-    '[' 	shift, and go to state 89
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    $default	reduce using rule 72 (F)
+    E   	go to state 89
+    F   	go to state 74
 
 
 
 state 67
 
-    F  ->  TK_CINT .   (rule 67)
+    F  ->  TK_ID . '[' E ']'   (rule 74)
+    F  ->  TK_ID . '[' E ']' '[' E ']'   (rule 75)
+    F  ->  TK_ID .   (rule 76)
+    F  ->  TK_ID . '(' EXPRS ')'   (rule 78)
+    F  ->  TK_ID . '(' ')'   (rule 79)
 
-    $default	reduce using rule 67 (F)
+    '(' 	shift, and go to state 90
+    '[' 	shift, and go to state 91
+
+    $default	reduce using rule 76 (F)
 
 
 
 state 68
 
-    F  ->  TK_CDOUBLE .   (rule 68)
+    F  ->  TK_CINT .   (rule 71)
 
-    $default	reduce using rule 68 (F)
+    $default	reduce using rule 71 (F)
 
 
 
 state 69
 
-    F  ->  TK_CSTRING .   (rule 69)
+    F  ->  TK_CDOUBLE .   (rule 72)
 
-    $default	reduce using rule 69 (F)
+    $default	reduce using rule 72 (F)
 
 
 
 state 70
 
-    E  ->  '(' . E ')'   (rule 65)
+    F  ->  TK_CSTRING .   (rule 73)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 90
-    F   	go to state 73
+    $default	reduce using rule 73 (F)
 
 
 
 state 71
 
-    F  ->  '@' . TK_ID   (rule 73)
+    E  ->  '(' . E ')'   (rule 69)
 
-    TK_ID	shift, and go to state 91
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 92
+    F   	go to state 74
 
 
 
 state 72
 
-    CMD_IF  ->  TK_IF E . CMD   (rule 47)
-    CMD_IF  ->  TK_IF E . CMD TK_ELSE CMD   (rule 48)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    F  ->  '@' . TK_ID   (rule 77)
+
+    TK_ID	shift, and go to state 93
+
+
+
+state 73
+
+    CMD_IF  ->  TK_IF E . CMD   (rule 50)
+    CMD_IF  ->  TK_IF E . CMD TK_ELSE CMD   (rule 51)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
     TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
+    TK_BEGIN	shift, and go to state 26
     TK_WRITELN	shift, and go to state 45
     TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
     TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
+    TK_AND	shift, and go to state 99
     TK_FOR	shift, and go to state 48
     TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
     BLOCO	go to state 50
-    CMD 	go to state 104
+    CMD 	go to state 106
     CMD_FOR	go to state 53
     CMD_WHILE	go to state 54
     CMD_IF	go to state 55
@@ -1137,71 +1160,74 @@ state 72
 
 
 
-state 73
-
-    E  ->  F .   (rule 66)
-
-    $default	reduce using rule 66 (E)
-
-
-
 state 74
 
-    NOME_VAR  ->  TK_ID .   (rule 77)
+    E  ->  F .   (rule 70)
 
-    $default	reduce using rule 77 (NOME_VAR)
+    $default	reduce using rule 70 (E)
 
 
 
 state 75
 
-    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR '<' E CMD   (rule 39)
-    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR '>' E CMD   (rule 40)
-    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD   (rule 41)
-    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD   (rule 42)
+    NOME_VAR  ->  TK_ID .   (rule 82)
+    NOME_VAR  ->  TK_ID . '[' TK_CINT ']'   (rule 83)
 
-    TK_ATRIB	shift, and go to state 105
+    '[' 	shift, and go to state 107
+
+    $default	reduce using rule 82 (NOME_VAR)
 
 
 
 state 76
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR . '<' E CMD   (rule 43)
-    CMD_WHILE  ->  TK_WHILE NOME_VAR . '>' E CMD   (rule 44)
-    CMD_WHILE  ->  TK_WHILE NOME_VAR . TK_MAIG E CMD   (rule 45)
-    CMD_WHILE  ->  TK_WHILE NOME_VAR . TK_MEIG E CMD   (rule 46)
+    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR '<' E CMD   (rule 42)
+    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR '>' E CMD   (rule 43)
+    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD   (rule 44)
+    CMD_FOR  ->  TK_FOR NOME_VAR . TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD   (rule 45)
 
-    TK_MAIG	shift, and go to state 106
-    TK_MEIG	shift, and go to state 107
-    '<' 	shift, and go to state 108
-    '>' 	shift, and go to state 109
+    TK_ATRIB	shift, and go to state 108
 
 
 
 state 77
 
-    BLOCO  ->  TK_BEGIN @3 CMDS TK_END .   (rule 29)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR . '<' E CMD   (rule 46)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR . '>' E CMD   (rule 47)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR . TK_MAIG E CMD   (rule 48)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR . TK_MEIG E CMD   (rule 49)
 
-    $default	reduce using rule 29 (BLOCO)
+    TK_MAIG	shift, and go to state 109
+    TK_MEIG	shift, and go to state 110
+    '<' 	shift, and go to state 111
+    '>' 	shift, and go to state 112
 
 
 
 state 78
 
-    CMDS  ->  CMD ';' . CMDS   (rule 30)
+    BLOCO  ->  TK_BEGIN @3 CMDS TK_END .   (rule 32)
+
+    $default	reduce using rule 32 (BLOCO)
+
+
+
+state 79
+
+    CMDS  ->  CMD ';' . CMDS   (rule 33)
 
     TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
+    TK_BEGIN	shift, and go to state 26
     TK_WRITELN	shift, and go to state 45
     TK_READ	shift, and go to state 46
     TK_IF	shift, and go to state 47
     TK_FOR	shift, and go to state 48
     TK_WHILE	shift, and go to state 49
 
-    $default	reduce using rule 31 (CMDS)
+    $default	reduce using rule 34 (CMDS)
 
     BLOCO	go to state 50
-    CMDS	go to state 110
+    CMDS	go to state 113
     CMD 	go to state 52
     CMD_FOR	go to state 53
     CMD_WHILE	go to state 54
@@ -1212,569 +1238,598 @@ state 78
 
 
 
-state 79
-
-    PARAM  ->  TK_ID . IDS   (rule 15)
-    IDS  ->  TK_ID .   (rule 25)
-
-    TK_ID	shift, and go to state 20
-    '*' 	shift, and go to state 11
-
-    $default	reduce using rule 25 (IDS)
-
-    IDS 	go to state 111
-
-
-
 state 80
 
-    OPC_PARAM  ->  '(' PARAMS . ')'   (rule 11)
+    PARAM  ->  TK_ID . IDS   (rule 15)
 
-    ')' 	shift, and go to state 112
+    TK_ID	shift, and go to state 20
+    '*' 	shift, and go to state 21
+
+    IDS 	go to state 114
 
 
 
 state 81
 
-    PARAMS  ->  PARAM . ';' PARAMS   (rule 13)
-    PARAMS  ->  PARAM .   (rule 14)
+    PARAM  ->  TK_ARRAY . TK_ID IDS '[' TK_CINT ']'   (rule 16)
+    PARAM  ->  TK_ARRAY . TK_ID IDS '[' TK_CINT ']' '[' TK_CINT ']'   (rule 17)
 
-    ';' 	shift, and go to state 113
-
-    $default	reduce using rule 14 (PARAMS)
+    TK_ID	shift, and go to state 115
 
 
 
 state 82
 
-    PARAM  ->  IDS . ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 16)
-    IDS  ->  IDS . ',' TK_ID   (rule 23)
-    IDS  ->  IDS . ',' '*' TK_ID   (rule 24)
+    OPC_PARAM  ->  '(' ')' .   (rule 12)
 
-    ':' 	shift, and go to state 114
-    ',' 	shift, and go to state 25
+    $default	reduce using rule 12 (OPC_PARAM)
 
 
 
 state 83
 
-    VAR  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT . TK_CINT ']' TK_OF TK_ID   (rule 22)
+    OPC_PARAM  ->  '(' PARAMS . ')'   (rule 11)
 
-    TK_CINT	shift, and go to state 115
+    ')' 	shift, and go to state 116
 
 
 
 state 84
 
-    ATRIB  ->  TK_ID TK_ATRIB E .   (rule 51)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    PARAMS  ->  PARAM . ';' PARAMS   (rule 13)
+    PARAMS  ->  PARAM .   (rule 14)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    ';' 	shift, and go to state 117
 
-    $default	reduce using rule 51 (ATRIB)
+    $default	reduce using rule 14 (PARAMS)
 
 
 
 state 85
 
-    ATRIB  ->  TK_ID '[' E . ']' TK_ATRIB E   (rule 52)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' .   (rule 23)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' . '[' TK_CINT ']'   (rule 24)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-    ']' 	shift, and go to state 116
+    '[' 	shift, and go to state 118
+
+    $default	reduce using rule 23 (VAR)
 
 
 
 state 86
 
-    WRITELN  ->  TK_WRITELN '(' E . ')'   (rule 49)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    ATRIB  ->  TK_ID TK_ATRIB E .   (rule 54)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-    ')' 	shift, and go to state 117
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    $default	reduce using rule 54 (ATRIB)
 
 
 
 state 87
 
-    READ  ->  TK_READ '(' E . ',' NOME_VAR ')'   (rule 50)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    ATRIB  ->  TK_ID '[' E . ']' TK_ATRIB E   (rule 55)
+    ATRIB  ->  TK_ID '[' E . ']' '[' E ']' TK_ATRIB E   (rule 56)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-    ',' 	shift, and go to state 118
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ']' 	shift, and go to state 119
 
 
 
 state 88
 
-    F  ->  TK_ID '(' . EXPRS ')'   (rule 74)
+    WRITELN  ->  TK_WRITELN '(' E . ')'   (rule 52)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 119
-    F   	go to state 73
-    EXPRS	go to state 120
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ')' 	shift, and go to state 120
 
 
 
 state 89
 
-    F  ->  TK_ID '[' . E ']'   (rule 70)
-    F  ->  TK_ID '[' . E ']' '[' E ']'   (rule 71)
+    READ  ->  TK_READ '(' E . ',' NOME_VAR ')'   (rule 53)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 121
-    F   	go to state 73
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ',' 	shift, and go to state 121
 
 
 
 state 90
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-    E  ->  '(' E . ')'   (rule 65)
+    F  ->  TK_ID '(' . EXPRS ')'   (rule 78)
+    F  ->  TK_ID '(' . ')'   (rule 79)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
     ')' 	shift, and go to state 122
+    '@' 	shift, and go to state 72
+
+    E   	go to state 123
+    F   	go to state 74
+    EXPRS	go to state 124
 
 
 
 state 91
 
-    F  ->  '@' TK_ID .   (rule 73)
+    F  ->  TK_ID '[' . E ']'   (rule 74)
+    F  ->  TK_ID '[' . E ']' '[' E ']'   (rule 75)
 
-    $default	reduce using rule 73 (F)
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 125
+    F   	go to state 74
 
 
 
 state 92
 
-    E  ->  E TK_MOD . E   (rule 56)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+    E  ->  '(' E . ')'   (rule 69)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 123
-    F   	go to state 73
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ')' 	shift, and go to state 126
 
 
 
 state 93
 
-    E  ->  E TK_MAIG . E   (rule 61)
+    F  ->  '@' TK_ID .   (rule 77)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 124
-    F   	go to state 73
+    $default	reduce using rule 77 (F)
 
 
 
 state 94
 
-    E  ->  E TK_MEIG . E   (rule 60)
+    E  ->  E TK_MOD . E   (rule 60)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 125
-    F   	go to state 73
+    E   	go to state 127
+    F   	go to state 74
 
 
 
 state 95
 
-    E  ->  E TK_DIF . E   (rule 63)
+    E  ->  E TK_MAIG . E   (rule 65)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 126
-    F   	go to state 73
+    E   	go to state 128
+    F   	go to state 74
 
 
 
 state 96
 
-    E  ->  E TK_IG . E   (rule 62)
+    E  ->  E TK_MEIG . E   (rule 64)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 127
-    F   	go to state 73
+    E   	go to state 129
+    F   	go to state 74
 
 
 
 state 97
 
-    E  ->  E TK_AND . E   (rule 64)
+    E  ->  E TK_DIF . E   (rule 67)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 128
-    F   	go to state 73
+    E   	go to state 130
+    F   	go to state 74
 
 
 
 state 98
 
-    E  ->  E '<' . E   (rule 58)
+    E  ->  E TK_IG . E   (rule 66)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 129
-    F   	go to state 73
+    E   	go to state 131
+    F   	go to state 74
 
 
 
 state 99
 
-    E  ->  E '>' . E   (rule 59)
+    E  ->  E TK_AND . E   (rule 68)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 130
-    F   	go to state 73
+    E   	go to state 132
+    F   	go to state 74
 
 
 
 state 100
 
-    E  ->  E '+' . E   (rule 53)
+    E  ->  E '<' . E   (rule 62)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 131
-    F   	go to state 73
+    E   	go to state 133
+    F   	go to state 74
 
 
 
 state 101
 
-    E  ->  E '-' . E   (rule 54)
+    E  ->  E '>' . E   (rule 63)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 132
-    F   	go to state 73
+    E   	go to state 134
+    F   	go to state 74
 
 
 
 state 102
 
-    E  ->  E '*' . E   (rule 55)
+    E  ->  E '+' . E   (rule 57)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 133
-    F   	go to state 73
+    E   	go to state 135
+    F   	go to state 74
 
 
 
 state 103
 
-    E  ->  E '/' . E   (rule 57)
+    E  ->  E '-' . E   (rule 58)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 134
-    F   	go to state 73
+    E   	go to state 136
+    F   	go to state 74
 
 
 
 state 104
 
-    CMD_IF  ->  TK_IF E CMD .   (rule 47)
-    CMD_IF  ->  TK_IF E CMD . TK_ELSE CMD   (rule 48)
+    E  ->  E '*' . E   (rule 59)
 
-    TK_ELSE	shift, and go to state 135
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    TK_ELSE	[reduce using rule 47 (CMD_IF)]
-    $default	reduce using rule 47 (CMD_IF)
+    E   	go to state 137
+    F   	go to state 74
 
 
 
 state 105
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR '<' E CMD   (rule 39)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR '>' E CMD   (rule 40)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR TK_MEIG E CMD   (rule 41)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR TK_MAIG E CMD   (rule 42)
+    E  ->  E '/' . E   (rule 61)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 136
-    F   	go to state 73
+    E   	go to state 138
+    F   	go to state 74
 
 
 
 state 106
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MAIG . E CMD   (rule 45)
+    CMD_IF  ->  TK_IF E CMD .   (rule 50)
+    CMD_IF  ->  TK_IF E CMD . TK_ELSE CMD   (rule 51)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ELSE	shift, and go to state 139
 
-    E   	go to state 137
-    F   	go to state 73
+    TK_ELSE	[reduce using rule 50 (CMD_IF)]
+    $default	reduce using rule 50 (CMD_IF)
 
 
 
 state 107
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MEIG . E CMD   (rule 46)
+    NOME_VAR  ->  TK_ID '[' . TK_CINT ']'   (rule 83)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 138
-    F   	go to state 73
+    TK_CINT	shift, and go to state 140
 
 
 
 state 108
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR '<' . E CMD   (rule 43)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR '<' E CMD   (rule 42)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR '>' E CMD   (rule 43)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR TK_MEIG E CMD   (rule 44)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB . E ';' NOME_VAR TK_MAIG E CMD   (rule 45)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 139
-    F   	go to state 73
+    E   	go to state 141
+    F   	go to state 74
 
 
 
 state 109
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR '>' . E CMD   (rule 44)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MAIG . E CMD   (rule 48)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 140
-    F   	go to state 73
+    E   	go to state 142
+    F   	go to state 74
 
 
 
 state 110
 
-    CMDS  ->  CMD ';' CMDS .   (rule 30)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MEIG . E CMD   (rule 49)
 
-    $default	reduce using rule 30 (CMDS)
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 143
+    F   	go to state 74
 
 
 
 state 111
 
-    PARAM  ->  TK_ID IDS .   (rule 15)
-    IDS  ->  IDS . ',' TK_ID   (rule 23)
-    IDS  ->  IDS . ',' '*' TK_ID   (rule 24)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR '<' . E CMD   (rule 46)
 
-    ',' 	shift, and go to state 25
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 144
+    F   	go to state 74
+
+
+
+state 112
+
+    CMD_WHILE  ->  TK_WHILE NOME_VAR '>' . E CMD   (rule 47)
+
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 145
+    F   	go to state 74
+
+
+
+state 113
+
+    CMDS  ->  CMD ';' CMDS .   (rule 33)
+
+    $default	reduce using rule 33 (CMDS)
+
+
+
+state 114
+
+    PARAM  ->  TK_ID IDS .   (rule 15)
+    IDS  ->  IDS . ',' TK_ID   (rule 25)
+    IDS  ->  IDS . ',' '*' TK_ID   (rule 26)
+
+    ',' 	shift, and go to state 32
 
     $default	reduce using rule 15 (PARAM)
 
 
 
-state 112
+state 115
+
+    PARAM  ->  TK_ARRAY TK_ID . IDS '[' TK_CINT ']'   (rule 16)
+    PARAM  ->  TK_ARRAY TK_ID . IDS '[' TK_CINT ']' '[' TK_CINT ']'   (rule 17)
+
+    TK_ID	shift, and go to state 20
+    '*' 	shift, and go to state 21
+
+    IDS 	go to state 146
+
+
+
+state 116
 
     OPC_PARAM  ->  '(' PARAMS ')' .   (rule 11)
 
@@ -1782,253 +1837,188 @@ state 112
 
 
 
-state 113
+state 117
 
     PARAMS  ->  PARAM ';' . PARAMS   (rule 13)
 
-    TK_ID	shift, and go to state 79
-    '*' 	shift, and go to state 11
+    TK_ID	shift, and go to state 80
+    TK_ARRAY	shift, and go to state 81
 
-    PARAMS	go to state 141
-    PARAM	go to state 81
-    IDS 	go to state 82
-
-
-
-state 114
-
-    PARAM  ->  IDS ':' . TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 16)
-
-    TK_ARRAY	shift, and go to state 142
-
-
-
-state 115
-
-    VAR  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT . ']' TK_OF TK_ID   (rule 22)
-
-    ']' 	shift, and go to state 143
-
-
-
-state 116
-
-    ATRIB  ->  TK_ID '[' E ']' . TK_ATRIB E   (rule 52)
-
-    TK_ATRIB	shift, and go to state 144
-
-
-
-state 117
-
-    WRITELN  ->  TK_WRITELN '(' E ')' .   (rule 49)
-
-    $default	reduce using rule 49 (WRITELN)
+    PARAMS	go to state 147
+    PARAM	go to state 84
 
 
 
 state 118
 
-    READ  ->  TK_READ '(' E ',' . NOME_VAR ')'   (rule 50)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' . TK_CINT ']'   (rule 24)
 
-    TK_ID	shift, and go to state 74
-
-    NOME_VAR	go to state 145
+    TK_CINT	shift, and go to state 148
 
 
 
 state 119
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-    EXPRS  ->  E .   (rule 76)
+    ATRIB  ->  TK_ID '[' E ']' . TK_ATRIB E   (rule 55)
+    ATRIB  ->  TK_ID '[' E ']' . '[' E ']' TK_ATRIB E   (rule 56)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    $default	reduce using rule 76 (EXPRS)
+    TK_ATRIB	shift, and go to state 149
+    '[' 	shift, and go to state 150
 
 
 
 state 120
 
-    F  ->  TK_ID '(' EXPRS . ')'   (rule 74)
-    EXPRS  ->  EXPRS . ',' E   (rule 75)
+    WRITELN  ->  TK_WRITELN '(' E ')' .   (rule 52)
 
-    ')' 	shift, and go to state 146
-    ',' 	shift, and go to state 147
+    $default	reduce using rule 52 (WRITELN)
 
 
 
 state 121
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-    F  ->  TK_ID '[' E . ']'   (rule 70)
-    F  ->  TK_ID '[' E . ']' '[' E ']'   (rule 71)
+    READ  ->  TK_READ '(' E ',' . NOME_VAR ')'   (rule 53)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-    ']' 	shift, and go to state 148
+    TK_ID	shift, and go to state 75
+
+    NOME_VAR	go to state 151
 
 
 
 state 122
 
-    E  ->  '(' E ')' .   (rule 65)
+    F  ->  TK_ID '(' ')' .   (rule 79)
 
-    $default	reduce using rule 65 (E)
+    $default	reduce using rule 79 (F)
 
 
 
 state 123
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E TK_MOD E .   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+    EXPRS  ->  E .   (rule 81)
 
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
-    $default	reduce using rule 56 (E)
+    $default	reduce using rule 81 (EXPRS)
 
 
 
 state 124
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E TK_MAIG E .   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    F  ->  TK_ID '(' EXPRS . ')'   (rule 78)
+    EXPRS  ->  EXPRS . ',' E   (rule 80)
 
-    TK_MOD	shift, and go to state 92
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    TK_MAIG	error (nonassociative)
-    TK_MEIG	error (nonassociative)
-    TK_DIF	error (nonassociative)
-    TK_IG	error (nonassociative)
-    '<' 	error (nonassociative)
-    '>' 	error (nonassociative)
-
-    $default	reduce using rule 61 (E)
+    ')' 	shift, and go to state 152
+    ',' 	shift, and go to state 153
 
 
 
 state 125
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E TK_MEIG E .   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+    F  ->  TK_ID '[' E . ']'   (rule 74)
+    F  ->  TK_ID '[' E . ']' '[' E ']'   (rule 75)
 
-    TK_MOD	shift, and go to state 92
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    TK_MAIG	error (nonassociative)
-    TK_MEIG	error (nonassociative)
-    TK_DIF	error (nonassociative)
-    TK_IG	error (nonassociative)
-    '<' 	error (nonassociative)
-    '>' 	error (nonassociative)
-
-    $default	reduce using rule 60 (E)
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ']' 	shift, and go to state 154
 
 
 
 state 126
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E TK_DIF E .   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  '(' E ')' .   (rule 69)
 
-    TK_MOD	shift, and go to state 92
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    $default	reduce using rule 69 (E)
+
+
+
+state 127
+
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E TK_MOD E .   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+
+    $default	reduce using rule 60 (E)
+
+
+
+state 128
+
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E TK_MAIG E .   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_MOD	shift, and go to state 94
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
     TK_MAIG	error (nonassociative)
     TK_MEIG	error (nonassociative)
@@ -2037,31 +2027,162 @@ state 126
     '<' 	error (nonassociative)
     '>' 	error (nonassociative)
 
-    $default	reduce using rule 63 (E)
+    $default	reduce using rule 65 (E)
 
 
 
-state 127
+state 129
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E TK_IG E .   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E TK_MEIG E .   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_MOD	shift, and go to state 92
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    TK_MOD	shift, and go to state 94
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    TK_MAIG	error (nonassociative)
+    TK_MEIG	error (nonassociative)
+    TK_DIF	error (nonassociative)
+    TK_IG	error (nonassociative)
+    '<' 	error (nonassociative)
+    '>' 	error (nonassociative)
+
+    $default	reduce using rule 64 (E)
+
+
+
+state 130
+
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E TK_DIF E .   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_MOD	shift, and go to state 94
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    TK_MAIG	error (nonassociative)
+    TK_MEIG	error (nonassociative)
+    TK_DIF	error (nonassociative)
+    TK_IG	error (nonassociative)
+    '<' 	error (nonassociative)
+    '>' 	error (nonassociative)
+
+    $default	reduce using rule 67 (E)
+
+
+
+state 131
+
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E TK_IG E .   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_MOD	shift, and go to state 94
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    TK_MAIG	error (nonassociative)
+    TK_MEIG	error (nonassociative)
+    TK_DIF	error (nonassociative)
+    TK_IG	error (nonassociative)
+    '<' 	error (nonassociative)
+    '>' 	error (nonassociative)
+
+    $default	reduce using rule 66 (E)
+
+
+
+state 132
+
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+    E  ->  E TK_AND E .   (rule 68)
+
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    $default	reduce using rule 68 (E)
+
+
+
+state 133
+
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E '<' E .   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_MOD	shift, and go to state 94
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
     TK_MAIG	error (nonassociative)
     TK_MEIG	error (nonassociative)
@@ -2074,384 +2195,143 @@ state 127
 
 
 
-state 128
-
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-    E  ->  E TK_AND E .   (rule 64)
-
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    $default	reduce using rule 64 (E)
-
-
-
-state 129
-
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E '<' E .   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-
-    TK_MOD	shift, and go to state 92
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    TK_MAIG	error (nonassociative)
-    TK_MEIG	error (nonassociative)
-    TK_DIF	error (nonassociative)
-    TK_IG	error (nonassociative)
-    '<' 	error (nonassociative)
-    '>' 	error (nonassociative)
-
-    $default	reduce using rule 58 (E)
-
-
-
-state 130
-
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E '>' E .   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-
-    TK_MOD	shift, and go to state 92
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    TK_MAIG	error (nonassociative)
-    TK_MEIG	error (nonassociative)
-    TK_DIF	error (nonassociative)
-    TK_IG	error (nonassociative)
-    '<' 	error (nonassociative)
-    '>' 	error (nonassociative)
-
-    $default	reduce using rule 59 (E)
-
-
-
-state 131
-
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E '+' E .   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-
-    TK_MOD	shift, and go to state 92
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    $default	reduce using rule 53 (E)
-
-
-
-state 132
-
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E '-' E .   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-
-    TK_MOD	shift, and go to state 92
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    $default	reduce using rule 54 (E)
-
-
-
-state 133
-
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E '*' E .   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-
-
-    $default	reduce using rule 55 (E)
-
-
-
 state 134
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E '/' E .   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E '>' E .   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
+    TK_MOD	shift, and go to state 94
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
-    $default	reduce using rule 57 (E)
+    TK_MAIG	error (nonassociative)
+    TK_MEIG	error (nonassociative)
+    TK_DIF	error (nonassociative)
+    TK_IG	error (nonassociative)
+    '<' 	error (nonassociative)
+    '>' 	error (nonassociative)
+
+    $default	reduce using rule 63 (E)
 
 
 
 state 135
 
-    CMD_IF  ->  TK_IF E CMD TK_ELSE . CMD   (rule 48)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E '+' E .   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
-    TK_WRITELN	shift, and go to state 45
-    TK_READ	shift, and go to state 46
-    TK_IF	shift, and go to state 47
-    TK_FOR	shift, and go to state 48
-    TK_WHILE	shift, and go to state 49
+    TK_MOD	shift, and go to state 94
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
-    BLOCO	go to state 50
-    CMD 	go to state 149
-    CMD_FOR	go to state 53
-    CMD_WHILE	go to state 54
-    CMD_IF	go to state 55
-    WRITELN	go to state 56
-    READ	go to state 57
-    ATRIB	go to state 58
+    $default	reduce using rule 57 (E)
 
 
 
 state 136
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR '<' E CMD   (rule 39)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR '>' E CMD   (rule 40)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR TK_MEIG E CMD   (rule 41)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR TK_MAIG E CMD   (rule 42)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E '-' E .   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-    ';' 	shift, and go to state 150
+    TK_MOD	shift, and go to state 94
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    $default	reduce using rule 58 (E)
 
 
 
 state 137
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MAIG E . CMD   (rule 45)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E '*' E .   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
-    TK_WRITELN	shift, and go to state 45
-    TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
-    TK_FOR	shift, and go to state 48
-    TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
 
-    BLOCO	go to state 50
-    CMD 	go to state 151
-    CMD_FOR	go to state 53
-    CMD_WHILE	go to state 54
-    CMD_IF	go to state 55
-    WRITELN	go to state 56
-    READ	go to state 57
-    ATRIB	go to state 58
+    $default	reduce using rule 59 (E)
 
 
 
 state 138
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MEIG E . CMD   (rule 46)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E '/' E .   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
-    TK_WRITELN	shift, and go to state 45
-    TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
-    TK_FOR	shift, and go to state 48
-    TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
 
-    BLOCO	go to state 50
-    CMD 	go to state 152
-    CMD_FOR	go to state 53
-    CMD_WHILE	go to state 54
-    CMD_IF	go to state 55
-    WRITELN	go to state 56
-    READ	go to state 57
-    ATRIB	go to state 58
+    $default	reduce using rule 61 (E)
 
 
 
 state 139
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR '<' E . CMD   (rule 43)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    CMD_IF  ->  TK_IF E CMD TK_ELSE . CMD   (rule 51)
 
     TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
+    TK_BEGIN	shift, and go to state 26
     TK_WRITELN	shift, and go to state 45
     TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
     TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
     TK_FOR	shift, and go to state 48
     TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
 
     BLOCO	go to state 50
-    CMD 	go to state 153
+    CMD 	go to state 155
     CMD_FOR	go to state 53
     CMD_WHILE	go to state 54
     CMD_IF	go to state 55
@@ -2463,42 +2343,85 @@ state 139
 
 state 140
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR '>' E . CMD   (rule 44)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    NOME_VAR  ->  TK_ID '[' TK_CINT . ']'   (rule 83)
+
+    ']' 	shift, and go to state 156
+
+
+
+state 141
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR '<' E CMD   (rule 42)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR '>' E CMD   (rule 43)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR TK_MEIG E CMD   (rule 44)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E . ';' NOME_VAR TK_MAIG E CMD   (rule 45)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ';' 	shift, and go to state 157
+
+
+
+state 142
+
+    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MAIG E . CMD   (rule 48)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
     TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
+    TK_BEGIN	shift, and go to state 26
     TK_WRITELN	shift, and go to state 45
     TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
     TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
+    TK_AND	shift, and go to state 99
     TK_FOR	shift, and go to state 48
     TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
     BLOCO	go to state 50
-    CMD 	go to state 154
+    CMD 	go to state 158
     CMD_FOR	go to state 53
     CMD_WHILE	go to state 54
     CMD_IF	go to state 55
@@ -2508,7 +2431,160 @@ state 140
 
 
 
-state 141
+state 143
+
+    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MEIG E . CMD   (rule 49)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_ID	shift, and go to state 44
+    TK_BEGIN	shift, and go to state 26
+    TK_WRITELN	shift, and go to state 45
+    TK_READ	shift, and go to state 46
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_IF	shift, and go to state 47
+    TK_AND	shift, and go to state 99
+    TK_FOR	shift, and go to state 48
+    TK_WHILE	shift, and go to state 49
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    BLOCO	go to state 50
+    CMD 	go to state 159
+    CMD_FOR	go to state 53
+    CMD_WHILE	go to state 54
+    CMD_IF	go to state 55
+    WRITELN	go to state 56
+    READ	go to state 57
+    ATRIB	go to state 58
+
+
+
+state 144
+
+    CMD_WHILE  ->  TK_WHILE NOME_VAR '<' E . CMD   (rule 46)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_ID	shift, and go to state 44
+    TK_BEGIN	shift, and go to state 26
+    TK_WRITELN	shift, and go to state 45
+    TK_READ	shift, and go to state 46
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_IF	shift, and go to state 47
+    TK_AND	shift, and go to state 99
+    TK_FOR	shift, and go to state 48
+    TK_WHILE	shift, and go to state 49
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    BLOCO	go to state 50
+    CMD 	go to state 160
+    CMD_FOR	go to state 53
+    CMD_WHILE	go to state 54
+    CMD_IF	go to state 55
+    WRITELN	go to state 56
+    READ	go to state 57
+    ATRIB	go to state 58
+
+
+
+state 145
+
+    CMD_WHILE  ->  TK_WHILE NOME_VAR '>' E . CMD   (rule 47)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_ID	shift, and go to state 44
+    TK_BEGIN	shift, and go to state 26
+    TK_WRITELN	shift, and go to state 45
+    TK_READ	shift, and go to state 46
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_IF	shift, and go to state 47
+    TK_AND	shift, and go to state 99
+    TK_FOR	shift, and go to state 48
+    TK_WHILE	shift, and go to state 49
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    BLOCO	go to state 50
+    CMD 	go to state 161
+    CMD_FOR	go to state 53
+    CMD_WHILE	go to state 54
+    CMD_IF	go to state 55
+    WRITELN	go to state 56
+    READ	go to state 57
+    ATRIB	go to state 58
+
+
+
+state 146
+
+    PARAM  ->  TK_ARRAY TK_ID IDS . '[' TK_CINT ']'   (rule 16)
+    PARAM  ->  TK_ARRAY TK_ID IDS . '[' TK_CINT ']' '[' TK_CINT ']'   (rule 17)
+    IDS  ->  IDS . ',' TK_ID   (rule 25)
+    IDS  ->  IDS . ',' '*' TK_ID   (rule 26)
+
+    '[' 	shift, and go to state 162
+    ',' 	shift, and go to state 32
+
+
+
+state 147
 
     PARAMS  ->  PARAM ';' PARAMS .   (rule 13)
 
@@ -2516,561 +2592,489 @@ state 141
 
 
 
-state 142
-
-    PARAM  ->  IDS ':' TK_ARRAY . '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 16)
-
-    '[' 	shift, and go to state 155
-
-
-
-state 143
-
-    VAR  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' . TK_OF TK_ID   (rule 22)
-
-    TK_OF	shift, and go to state 156
-
-
-
-state 144
-
-    ATRIB  ->  TK_ID '[' E ']' TK_ATRIB . E   (rule 52)
-
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 157
-    F   	go to state 73
-
-
-
-state 145
-
-    READ  ->  TK_READ '(' E ',' NOME_VAR . ')'   (rule 50)
-
-    ')' 	shift, and go to state 158
-
-
-
-state 146
-
-    F  ->  TK_ID '(' EXPRS ')' .   (rule 74)
-
-    $default	reduce using rule 74 (F)
-
-
-
-state 147
-
-    EXPRS  ->  EXPRS ',' . E   (rule 75)
-
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 159
-    F   	go to state 73
-
-
-
 state 148
 
-    F  ->  TK_ID '[' E ']' .   (rule 70)
-    F  ->  TK_ID '[' E ']' . '[' E ']'   (rule 71)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' TK_CINT . ']'   (rule 24)
 
-    '[' 	shift, and go to state 160
-
-    $default	reduce using rule 70 (F)
+    ']' 	shift, and go to state 163
 
 
 
 state 149
 
-    CMD_IF  ->  TK_IF E CMD TK_ELSE CMD .   (rule 48)
+    ATRIB  ->  TK_ID '[' E ']' TK_ATRIB . E   (rule 55)
 
-    $default	reduce using rule 48 (CMD_IF)
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 164
+    F   	go to state 74
 
 
 
 state 150
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR '<' E CMD   (rule 39)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR '>' E CMD   (rule 40)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR TK_MEIG E CMD   (rule 41)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR TK_MAIG E CMD   (rule 42)
+    ATRIB  ->  TK_ID '[' E ']' '[' . E ']' TK_ATRIB E   (rule 56)
 
-    TK_ID	shift, and go to state 74
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    NOME_VAR	go to state 161
+    E   	go to state 165
+    F   	go to state 74
 
 
 
 state 151
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MAIG E CMD .   (rule 45)
+    READ  ->  TK_READ '(' E ',' NOME_VAR . ')'   (rule 53)
 
-    $default	reduce using rule 45 (CMD_WHILE)
+    ')' 	shift, and go to state 166
 
 
 
 state 152
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MEIG E CMD .   (rule 46)
+    F  ->  TK_ID '(' EXPRS ')' .   (rule 78)
 
-    $default	reduce using rule 46 (CMD_WHILE)
+    $default	reduce using rule 78 (F)
 
 
 
 state 153
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR '<' E CMD .   (rule 43)
+    EXPRS  ->  EXPRS ',' . E   (rule 80)
 
-    $default	reduce using rule 43 (CMD_WHILE)
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 167
+    F   	go to state 74
 
 
 
 state 154
 
-    CMD_WHILE  ->  TK_WHILE NOME_VAR '>' E CMD .   (rule 44)
+    F  ->  TK_ID '[' E ']' .   (rule 74)
+    F  ->  TK_ID '[' E ']' . '[' E ']'   (rule 75)
 
-    $default	reduce using rule 44 (CMD_WHILE)
+    '[' 	shift, and go to state 168
+
+    $default	reduce using rule 74 (F)
 
 
 
 state 155
 
-    PARAM  ->  IDS ':' TK_ARRAY '[' . TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 16)
+    CMD_IF  ->  TK_IF E CMD TK_ELSE CMD .   (rule 51)
 
-    TK_CINT	shift, and go to state 162
+    $default	reduce using rule 51 (CMD_IF)
 
 
 
 state 156
 
-    VAR  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF . TK_ID   (rule 22)
+    NOME_VAR  ->  TK_ID '[' TK_CINT ']' .   (rule 83)
 
-    TK_ID	shift, and go to state 163
+    $default	reduce using rule 83 (NOME_VAR)
 
 
 
 state 157
 
-    ATRIB  ->  TK_ID '[' E ']' TK_ATRIB E .   (rule 52)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR '<' E CMD   (rule 42)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR '>' E CMD   (rule 43)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR TK_MEIG E CMD   (rule 44)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' . NOME_VAR TK_MAIG E CMD   (rule 45)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    TK_ID	shift, and go to state 75
 
-    $default	reduce using rule 52 (ATRIB)
+    NOME_VAR	go to state 169
 
 
 
 state 158
 
-    READ  ->  TK_READ '(' E ',' NOME_VAR ')' .   (rule 50)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MAIG E CMD .   (rule 48)
 
-    $default	reduce using rule 50 (READ)
+    $default	reduce using rule 48 (CMD_WHILE)
 
 
 
 state 159
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-    EXPRS  ->  EXPRS ',' E .   (rule 75)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR TK_MEIG E CMD .   (rule 49)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    $default	reduce using rule 75 (EXPRS)
+    $default	reduce using rule 49 (CMD_WHILE)
 
 
 
 state 160
 
-    F  ->  TK_ID '[' E ']' '[' . E ']'   (rule 71)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR '<' E CMD .   (rule 46)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 164
-    F   	go to state 73
+    $default	reduce using rule 46 (CMD_WHILE)
 
 
 
 state 161
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . '<' E CMD   (rule 39)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . '>' E CMD   (rule 40)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . TK_MEIG E CMD   (rule 41)
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . TK_MAIG E CMD   (rule 42)
+    CMD_WHILE  ->  TK_WHILE NOME_VAR '>' E CMD .   (rule 47)
 
-    TK_MAIG	shift, and go to state 165
-    TK_MEIG	shift, and go to state 166
-    '<' 	shift, and go to state 167
-    '>' 	shift, and go to state 168
+    $default	reduce using rule 47 (CMD_WHILE)
 
 
 
 state 162
 
-    PARAM  ->  IDS ':' TK_ARRAY '[' TK_CINT . TK_PTPT TK_CINT ']' TK_OF TK_ID   (rule 16)
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' . TK_CINT ']'   (rule 16)
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' . TK_CINT ']' '[' TK_CINT ']'   (rule 17)
 
-    TK_PTPT	shift, and go to state 169
+    TK_CINT	shift, and go to state 170
 
 
 
 state 163
 
-    VAR  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID .   (rule 22)
+    VAR  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' TK_CINT ']' .   (rule 24)
 
-    $default	reduce using rule 22 (VAR)
+    $default	reduce using rule 24 (VAR)
 
 
 
 state 164
 
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
-    F  ->  TK_ID '[' E ']' '[' E . ']'   (rule 71)
+    ATRIB  ->  TK_ID '[' E ']' TK_ATRIB E .   (rule 55)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_AND	shift, and go to state 97
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-    ']' 	shift, and go to state 170
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    $default	reduce using rule 55 (ATRIB)
 
 
 
 state 165
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG . E CMD   (rule 42)
+    ATRIB  ->  TK_ID '[' E ']' '[' E . ']' TK_ATRIB E   (rule 56)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 171
-    F   	go to state 73
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ']' 	shift, and go to state 171
 
 
 
 state 166
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG . E CMD   (rule 41)
+    READ  ->  TK_READ '(' E ',' NOME_VAR ')' .   (rule 53)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
-
-    E   	go to state 172
-    F   	go to state 73
+    $default	reduce using rule 53 (READ)
 
 
 
 state 167
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' . E CMD   (rule 39)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+    EXPRS  ->  EXPRS ',' E .   (rule 80)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
-    E   	go to state 173
-    F   	go to state 73
+    $default	reduce using rule 80 (EXPRS)
 
 
 
 state 168
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' . E CMD   (rule 40)
+    F  ->  TK_ID '[' E ']' '[' . E ']'   (rule 75)
 
-    TK_ID	shift, and go to state 66
-    TK_CINT	shift, and go to state 67
-    TK_CDOUBLE	shift, and go to state 68
-    TK_CSTRING	shift, and go to state 69
-    '(' 	shift, and go to state 70
-    '@' 	shift, and go to state 71
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    E   	go to state 174
-    F   	go to state 73
+    E   	go to state 172
+    F   	go to state 74
 
 
 
 state 169
 
-    PARAM  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT . TK_CINT ']' TK_OF TK_ID   (rule 16)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . '<' E CMD   (rule 42)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . '>' E CMD   (rule 43)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . TK_MEIG E CMD   (rule 44)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR . TK_MAIG E CMD   (rule 45)
 
-    TK_CINT	shift, and go to state 175
+    TK_MAIG	shift, and go to state 173
+    TK_MEIG	shift, and go to state 174
+    '<' 	shift, and go to state 175
+    '>' 	shift, and go to state 176
 
 
 
 state 170
 
-    F  ->  TK_ID '[' E ']' '[' E ']' .   (rule 71)
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' TK_CINT . ']'   (rule 16)
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' TK_CINT . ']' '[' TK_CINT ']'   (rule 17)
 
-    $default	reduce using rule 71 (F)
+    ']' 	shift, and go to state 177
 
 
 
 state 171
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E . CMD   (rule 42)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    ATRIB  ->  TK_ID '[' E ']' '[' E ']' . TK_ATRIB E   (rule 56)
 
-    TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
-    TK_WRITELN	shift, and go to state 45
-    TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
-    TK_FOR	shift, and go to state 48
-    TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    BLOCO	go to state 50
-    CMD 	go to state 176
-    CMD_FOR	go to state 53
-    CMD_WHILE	go to state 54
-    CMD_IF	go to state 55
-    WRITELN	go to state 56
-    READ	go to state 57
-    ATRIB	go to state 58
+    TK_ATRIB	shift, and go to state 178
 
 
 
 state 172
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E . CMD   (rule 41)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+    F  ->  TK_ID '[' E ']' '[' E . ']'   (rule 75)
 
-    TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
-    TK_WRITELN	shift, and go to state 45
-    TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
-    TK_FOR	shift, and go to state 48
-    TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
-
-    BLOCO	go to state 50
-    CMD 	go to state 177
-    CMD_FOR	go to state 53
-    CMD_WHILE	go to state 54
-    CMD_IF	go to state 55
-    WRITELN	go to state 56
-    READ	go to state 57
-    ATRIB	go to state 58
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+    ']' 	shift, and go to state 179
 
 
 
 state 173
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E . CMD   (rule 39)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG . E CMD   (rule 45)
 
-    TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
-    TK_WRITELN	shift, and go to state 45
-    TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
-    TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
-    TK_FOR	shift, and go to state 48
-    TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
 
-    BLOCO	go to state 50
-    CMD 	go to state 178
-    CMD_FOR	go to state 53
-    CMD_WHILE	go to state 54
-    CMD_IF	go to state 55
-    WRITELN	go to state 56
-    READ	go to state 57
-    ATRIB	go to state 58
+    E   	go to state 180
+    F   	go to state 74
 
 
 
 state 174
 
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E . CMD   (rule 40)
-    E  ->  E . '+' E   (rule 53)
-    E  ->  E . '-' E   (rule 54)
-    E  ->  E . '*' E   (rule 55)
-    E  ->  E . TK_MOD E   (rule 56)
-    E  ->  E . '/' E   (rule 57)
-    E  ->  E . '<' E   (rule 58)
-    E  ->  E . '>' E   (rule 59)
-    E  ->  E . TK_MEIG E   (rule 60)
-    E  ->  E . TK_MAIG E   (rule 61)
-    E  ->  E . TK_IG E   (rule 62)
-    E  ->  E . TK_DIF E   (rule 63)
-    E  ->  E . TK_AND E   (rule 64)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG . E CMD   (rule 44)
+
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 181
+    F   	go to state 74
+
+
+
+state 175
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' . E CMD   (rule 42)
+
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 182
+    F   	go to state 74
+
+
+
+state 176
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' . E CMD   (rule 43)
+
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 183
+    F   	go to state 74
+
+
+
+state 177
+
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' .   (rule 16)
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' . '[' TK_CINT ']'   (rule 17)
+
+    '[' 	shift, and go to state 184
+
+    $default	reduce using rule 16 (PARAM)
+
+
+
+state 178
+
+    ATRIB  ->  TK_ID '[' E ']' '[' E ']' TK_ATRIB . E   (rule 56)
+
+    TK_ID	shift, and go to state 67
+    TK_CINT	shift, and go to state 68
+    TK_CDOUBLE	shift, and go to state 69
+    TK_CSTRING	shift, and go to state 70
+    '(' 	shift, and go to state 71
+    '@' 	shift, and go to state 72
+
+    E   	go to state 185
+    F   	go to state 74
+
+
+
+state 179
+
+    F  ->  TK_ID '[' E ']' '[' E ']' .   (rule 75)
+
+    $default	reduce using rule 75 (F)
+
+
+
+state 180
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E . CMD   (rule 45)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
     TK_ID	shift, and go to state 44
-    TK_BEGIN	shift, and go to state 27
+    TK_BEGIN	shift, and go to state 26
     TK_WRITELN	shift, and go to state 45
     TK_READ	shift, and go to state 46
-    TK_MOD	shift, and go to state 92
-    TK_MAIG	shift, and go to state 93
-    TK_MEIG	shift, and go to state 94
-    TK_DIF	shift, and go to state 95
-    TK_IG	shift, and go to state 96
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
     TK_IF	shift, and go to state 47
-    TK_AND	shift, and go to state 97
+    TK_AND	shift, and go to state 99
     TK_FOR	shift, and go to state 48
     TK_WHILE	shift, and go to state 49
-    '<' 	shift, and go to state 98
-    '>' 	shift, and go to state 99
-    '+' 	shift, and go to state 100
-    '-' 	shift, and go to state 101
-    '*' 	shift, and go to state 102
-    '/' 	shift, and go to state 103
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
 
     BLOCO	go to state 50
-    CMD 	go to state 179
+    CMD 	go to state 186
     CMD_FOR	go to state 53
     CMD_WHILE	go to state 54
     CMD_IF	go to state 55
@@ -3080,82 +3084,248 @@ state 174
 
 
 
-state 175
-
-    PARAM  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT . ']' TK_OF TK_ID   (rule 16)
-
-    ']' 	shift, and go to state 180
-
-
-
-state 176
-
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD .   (rule 42)
-
-    $default	reduce using rule 42 (CMD_FOR)
-
-
-
-state 177
-
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD .   (rule 41)
-
-    $default	reduce using rule 41 (CMD_FOR)
-
-
-
-state 178
-
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD .   (rule 39)
-
-    $default	reduce using rule 39 (CMD_FOR)
-
-
-
-state 179
-
-    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E CMD .   (rule 40)
-
-    $default	reduce using rule 40 (CMD_FOR)
-
-
-
-state 180
-
-    PARAM  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' . TK_OF TK_ID   (rule 16)
-
-    TK_OF	shift, and go to state 181
-
-
-
 state 181
 
-    PARAM  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF . TK_ID   (rule 16)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E . CMD   (rule 44)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    TK_ID	shift, and go to state 182
+    TK_ID	shift, and go to state 44
+    TK_BEGIN	shift, and go to state 26
+    TK_WRITELN	shift, and go to state 45
+    TK_READ	shift, and go to state 46
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_IF	shift, and go to state 47
+    TK_AND	shift, and go to state 99
+    TK_FOR	shift, and go to state 48
+    TK_WHILE	shift, and go to state 49
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    BLOCO	go to state 50
+    CMD 	go to state 187
+    CMD_FOR	go to state 53
+    CMD_WHILE	go to state 54
+    CMD_IF	go to state 55
+    WRITELN	go to state 56
+    READ	go to state 57
+    ATRIB	go to state 58
 
 
 
 state 182
 
-    PARAM  ->  IDS ':' TK_ARRAY '[' TK_CINT TK_PTPT TK_CINT ']' TK_OF TK_ID .   (rule 16)
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E . CMD   (rule 42)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
 
-    $default	reduce using rule 16 (PARAM)
+    TK_ID	shift, and go to state 44
+    TK_BEGIN	shift, and go to state 26
+    TK_WRITELN	shift, and go to state 45
+    TK_READ	shift, and go to state 46
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_IF	shift, and go to state 47
+    TK_AND	shift, and go to state 99
+    TK_FOR	shift, and go to state 48
+    TK_WHILE	shift, and go to state 49
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    BLOCO	go to state 50
+    CMD 	go to state 188
+    CMD_FOR	go to state 53
+    CMD_WHILE	go to state 54
+    CMD_IF	go to state 55
+    WRITELN	go to state 56
+    READ	go to state 57
+    ATRIB	go to state 58
 
 
 
 state 183
 
-    $   	go to state 184
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E . CMD   (rule 43)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_ID	shift, and go to state 44
+    TK_BEGIN	shift, and go to state 26
+    TK_WRITELN	shift, and go to state 45
+    TK_READ	shift, and go to state 46
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_IF	shift, and go to state 47
+    TK_AND	shift, and go to state 99
+    TK_FOR	shift, and go to state 48
+    TK_WHILE	shift, and go to state 49
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    BLOCO	go to state 50
+    CMD 	go to state 189
+    CMD_FOR	go to state 53
+    CMD_WHILE	go to state 54
+    CMD_IF	go to state 55
+    WRITELN	go to state 56
+    READ	go to state 57
+    ATRIB	go to state 58
 
 
 
 state 184
 
-    $   	go to state 185
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' . TK_CINT ']'   (rule 17)
+
+    TK_CINT	shift, and go to state 190
 
 
 
 state 185
+
+    ATRIB  ->  TK_ID '[' E ']' '[' E ']' TK_ATRIB E .   (rule 56)
+    E  ->  E . '+' E   (rule 57)
+    E  ->  E . '-' E   (rule 58)
+    E  ->  E . '*' E   (rule 59)
+    E  ->  E . TK_MOD E   (rule 60)
+    E  ->  E . '/' E   (rule 61)
+    E  ->  E . '<' E   (rule 62)
+    E  ->  E . '>' E   (rule 63)
+    E  ->  E . TK_MEIG E   (rule 64)
+    E  ->  E . TK_MAIG E   (rule 65)
+    E  ->  E . TK_IG E   (rule 66)
+    E  ->  E . TK_DIF E   (rule 67)
+    E  ->  E . TK_AND E   (rule 68)
+
+    TK_MOD	shift, and go to state 94
+    TK_MAIG	shift, and go to state 95
+    TK_MEIG	shift, and go to state 96
+    TK_DIF	shift, and go to state 97
+    TK_IG	shift, and go to state 98
+    TK_AND	shift, and go to state 99
+    '<' 	shift, and go to state 100
+    '>' 	shift, and go to state 101
+    '+' 	shift, and go to state 102
+    '-' 	shift, and go to state 103
+    '*' 	shift, and go to state 104
+    '/' 	shift, and go to state 105
+
+    $default	reduce using rule 56 (ATRIB)
+
+
+
+state 186
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MAIG E CMD .   (rule 45)
+
+    $default	reduce using rule 45 (CMD_FOR)
+
+
+
+state 187
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR TK_MEIG E CMD .   (rule 44)
+
+    $default	reduce using rule 44 (CMD_FOR)
+
+
+
+state 188
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '<' E CMD .   (rule 42)
+
+    $default	reduce using rule 42 (CMD_FOR)
+
+
+
+state 189
+
+    CMD_FOR  ->  TK_FOR NOME_VAR TK_ATRIB E ';' NOME_VAR '>' E CMD .   (rule 43)
+
+    $default	reduce using rule 43 (CMD_FOR)
+
+
+
+state 190
+
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' TK_CINT . ']'   (rule 17)
+
+    ']' 	shift, and go to state 191
+
+
+
+state 191
+
+    PARAM  ->  TK_ARRAY TK_ID IDS '[' TK_CINT ']' '[' TK_CINT ']' .   (rule 17)
+
+    $default	reduce using rule 17 (PARAM)
+
+
+
+state 192
+
+    $   	go to state 193
+
+
+
+state 193
+
+    $   	go to state 194
+
+
+
+state 194
 
     $default	accept
